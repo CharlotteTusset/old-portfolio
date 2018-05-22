@@ -1,4 +1,5 @@
-# Premier projet BECODE.org
+# Projet BE CODE
+https://github.com/becodeorg
 
 * Création d'un site web personnel 
 * HTML/CSS
