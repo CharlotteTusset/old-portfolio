@@ -1,0 +1,220 @@
+/*
+RESET CSS
+*/
+
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+padding: 0; margin: 0;
+}
+
+html,body{
+display: block;
+height: 100%; width: 100%;
+overflow: auto;
+background-color: white;
+background-size: 50% auto;
+}
+
+ul,li,a{
+margin: 0; padding: 0;
+list-style: none;
+text-decoration: none;
+}
+
+
+/* Main */
+
+.main, .main-header, .main-container, .main-footer {
+    display: block;
+	width: 100%;
+	font-family: Optima;
+}
+
+.main {height: 100%;}
+
+.main-header /*navbar*/ {
+	font-size: 20px;
+	border-radius: 10px;
+    background-color: #f2f2f2;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    padding-left: 60px;
+    word-spacing: 50px;
+    z-index: 5
+}
+
+#profilepic {
+    display: inline-block;
+    max-height: 150px;
+    max-width: 200px;
+    border-radius: 50%;
+    float:left;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+#frflag, #enflag {
+    max-height: 20px;
+    max-width: 20px;
+    background-color: #f2f2f2;
+    float:right;
+    margin-right: 4px;
+}
+
+.name {
+    display: block;
+    text-align: left;
+    margin-top: 60px;
+    font-size: 50px;
+    color:#245942;
+    font-weight: bold;
+    letter-spacing: 25px;
+    text-transform: uppercase;
+}
+
+.main-container {
+	height: auto;
+	text-align: center;
+}
+ 
+ /* Copyright */
+.main-footer {
+	margin-top: 6em;
+	height: 50px;
+	text-align: center;
+}
+
+/* Social media */
+.fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+  	background-color: #A5D9B0;
+}
+.fa:visited {color: #245942;}
+
+
+h1 {
+	letter-spacing: 10px;
+	text-align: left;
+    margin-left: 40px;
+	color: #A5D9B0;
+    border-radius: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+h2 {
+	letter-spacing: 2px;
+	text-align: left;
+    color: #245942;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+p { 
+    color:#6f837a;
+    text-align: justify;
+    font-weight: lighter;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+
+.position {
+    color: #245942;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    text-align:left;
+}
+
+.resume-date {
+    color: #A5D9B0;
+    margin-right: 80px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.social {
+	list-style-type: none;
+	margin-left: 20px;
+	padding:0;
+	word-spacing: 20px;
+    display: inline-block
+}
+ul li {display: inline-block;}
+#social {text-align: center;}
+
+.languages {
+    text-align: left;
+    margin-left: 50px;
+    color:#6f837a;
+    font-size:large;
+}
+
+a {color: #245942;}
+
+a:hover {
+    background-color: #A5D9B0;
+    color: grey;
+    border-radius: 15px;
+}
+
+a:visited {color: #245942;}
+
+/* Formulaire contact */
+
+section {
+	font-family: Optima;
+	color: #245942;
+	margin: 10px;
+}
+
+button {
+	background-color: #245942;
+    border: none;
+    font-family: Optima;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+button:hover {
+    background-color: #A5D9B0;
+}
+
+.container {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Help from internet! Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
