@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff|Italianno|Lato|League+Script|Miss+Fajardose|Puritan|Quicksand');
+// Commande terminale: sass --watch style.scss:style.css
+
+@import url('https://fonts.googleapis.com/css?family=Italianno|Lato|Miss+Fajardose|Puritan|Quicksand');
 
 .navbar
 	.navbar-brand {
@@ -9,6 +11,3 @@
 			font-family: 'Italianno', cursive;
 			font-size: 40px;
 		}
-
-.container {padding-top: 70px;}
-	.image {border-radius: 90px;} 
