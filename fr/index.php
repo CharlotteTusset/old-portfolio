@@ -4,27 +4,37 @@
 	<meta charset="utf-8">
 	<title>Charlotte Tusset</title>
     <link rel="stylesheet" href="../assets/css/style.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
 </head> 
 
 <body>
+
+<script type="text/javascript" src="assets/js/add.js"></script>
+
 <div class="main">
+
+	<div class="header">
+		<!-- Scroll bar -->
+	  <div class="progress-container">
+	    <div class="progress-bar" id="myBar"></div>
+	    <!-- Nav bar -->
+		<div class="main-header">
+			<nav>
+			<a href="#intro" title="home"><i class="fas fa-home"></i></a>
+			<a href="#experience" title="Experience"><i class="fas fa-suitcase"></i></a>
+			<a href="#etudes" title="Etudes"><i class="fas fa-graduation-cap"></i></a>
+			<a href="#compétences" title="Compétences"><i class="fas fa-cogs"></i></a> 
+			<a id="Contact" href="#form"><i class="fas fa-paper-plane"></i></a>
+			<a id="en" href="../index.php"><img src="../assets/images/en.jpeg" id="enflag"></a>
+			</nav>
+		</div>
+	  </div> 
+	</div>
 
 	<div id="intro" ><img src="../assets/images/profilepic.jpg" id="profilepic"></div>
 	<div class="name">Charlotte Tusset</div>
-
-	<!-- Header and nav bar -->
-	<div class="main-header">
-		<nav>
-		<a href="#intro" title="home"><i class="fas fa-home"></i></a>
-		<a href="#experience" title="Experience"><i class="fas fa-suitcase"></i></a>
-		<a href="#etudes" title="Etudes"><i class="fas fa-graduation-cap"></i></a>
-		<a href="#compétences" title="Compétences"><i class="fas fa-cogs"></i></a> 
-		<a id="Contact" href="#form"><i class="fas fa-paper-plane"></i></a>
-		<a id="en" href="../index.php"><img src="../assets/images/en.jpeg" id="enflag">
-		</nav>
-	</div>
 
 	<!--Description -->
 	<div class="intro">

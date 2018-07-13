@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff|Italianno|Lato|League+Script|Miss+Fajardose|Puritan|Quicksand");
+.navbar
+.navbar-brand {
+  justify-content: center;
+  width: 100%; }
+
+#name {
+  font-family: 'Italianno', cursive;
+  font-size: 40px; }
+
+.container {
+  padding-top: 70px; }
+
+.image {
+  border-radius: 90px; }
+
+/*# sourceMappingURL=style.css.map */
