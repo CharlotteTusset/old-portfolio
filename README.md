@@ -1,22 +1,27 @@
-# Projet [BE CODE](https://github.com/becodeorg) - My CV
+# Project [BE CODE](https://github.com/becodeorg) - My CV
 
-## Création d'un site web personnel - CV
+## Personal website
 
 * HTML/CSS (Sass)
-* Utilisation de MAMP - PHP
-* Intégration de [Bulma](https://bulma.io/)
-* JS + Jquery (en cours)
+	* [Bulma](https://bulma.io/) framework
+* PHP
+* JS + Jquery
 
 ---
 
-## Objectifs
+## Objectives
 
-* Améliorer mon site CV au cours de la formation
-* Apporter un contenu pertinent 
-* Se créer une vitrine sur le web  
+* Improve my CV website
+* Realise a showcase for potential employers
+* Confirm my knowledge
+
 
 ---
 
-## Visuel
+## Screenshots
 
 
+
+## Made by Charlotte Tusset
+
+(Add CC)
