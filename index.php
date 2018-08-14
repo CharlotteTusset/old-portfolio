@@ -3,31 +3,26 @@
 
 <main>
 	<div class="columns">
-	  <div class="column is-one-quarter">bla</div>
-	  <div class="column is-three-quarters">bla</div>
-	</div>
-
-
-		<div>
-			<div>
-				<figure class="image is-128x128 is-pulled-left">
-					<img src="img/profilepic.jpg" alt="profilepic">
-				</figure>
-				<p>Hello! I am currently a <b>Junior Web Developer</b> at <a href="https://www.becode.org/"><b>BeCode</b></a>. A 6-months challenge that will offer me new working opportunities.
-				I am graduated with a Bachelor's Degree in Political Sciences and a Master's Degree in European Studies. I gained experience within an NGO and within the European Parliament.				In the next few months, I hope I will use my new superpowers to find a proper job in the cultural sector and more specifically in the music industry (why not a startup based in Amsterdam). 
-				I am a curious mind and I have many interests. I am a music lover and could spend my free time going to gigs or digging for new finds (I have eclectic tastes going from new wave, indie, latin vibes, minimal or acid techno). Besides, I am passionate about culture and arts. I am a novice photographer and I wish to become a guitar-player and a good painter. I played basketball for 17 years and now I run, swim and bike a lot. I also enjoy long walks in nature. I love travelling, especially backpacking and citytrips with locals.</p>
-			</div>
+	  <!-- space left -->
+	  <div class="column is-2">bla</div>
+	  <!-- Main column -->
+	  <div class="column is-8">
+	  	<div>
+	  		<figure class="image is-128x128 is-pulled-left">
+	  			<img src="img/profilepic.jpg" alt="profilepic">
+			</figure>
+			<p>Hello! I am currently a <b>Junior Web Developer</b> at <a href="https://www.becode.org/"><b>BeCode</b></a>. A 6-months challenge that will offer me new working opportunities.
+			I am graduated with a Bachelor's Degree in Political Sciences and a Master's Degree in European Studies. I gained experience within an NGO and within the European Parliament.				In the next few months, I hope I will use my new superpowers to find a proper job in the cultural sector and more specifically in the music industry (why not a startup based in Amsterdam). 
+			I am a curious mind and I have many interests. I am a music lover and could spend my free time going to gigs or digging for new finds (I have eclectic tastes going from new wave, indie, latin vibes, minimal or acid techno). Besides, I am passionate about culture and arts. I am a novice photographer and I wish to become a guitar-player and a good painter. I played basketball for 17 years and now I run, swim and bike a lot. I also enjoy long walks in nature. I love travelling, especially backpacking and citytrips with locals.</p>
 		</div>
-
 		<section class="section">
 		 	<div class="container">
 		 		<h1 class="title">Section</h1>
 		 		<h2 class="subtitle"> A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading</h2>
     		</div>
   		</section>
-
-			<!-- Social media -->
-			<div id="social">
+  		<!-- Social media -->
+  		<div id="social">
 				<ul>
 					<li><a href="mailto:charlotte.tusset@gmail.com" target="_blank">
 						<span class="fa-stack fa-lg">
@@ -72,8 +67,13 @@
 						</a>
 					</li>
 				</ul>
-			</div>
 		</div>
+	  </div>
+	  <!-- space right -->
+	  <div class="column is-2">bla</div>
+	</div>
+
+
 
 		<div class='block'>
 			<div id="experience">
@@ -123,14 +123,7 @@
 					<li>Italian</li>&nbsp;<progress value="55" max="100"></progress><br>
 				</ul>
 			</div>
-		</div>
-
-		<div class='block'>
-			<form>	
-			</form>
-		</div>
-
-		
+		</div>	
 </main>
 
 <?php include 'partials/footer.php' ?>
