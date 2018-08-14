@@ -1,18 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<?php include 'partials/head.php' ?>
-	</head>
 
-	<body>
-		<?php include 'partials/header.php' ?>
-		<div class='main'>
-		<div class="container">
-			<div class="notification">
+<?php include 'partials/header.php' ?>
+
+<main>
+	<div class="columns">
+	  <div class="column is-one-quarter">bla</div>
+	  <div class="column is-three-quarters">bla</div>
+	</div>
+
+
+		<div>
+			<div>
 				<figure class="image is-128x128 is-pulled-left">
 					<img src="img/profilepic.jpg" alt="profilepic">
 				</figure>
-				<p class="has-text-justified">Hello! I am currently a <b>Junior Web Developer</b> at <a href="https://www.becode.org/"><b>BeCode</b></a>. A 6-months challenge that will offer me new working opportunities.
+				<p>Hello! I am currently a <b>Junior Web Developer</b> at <a href="https://www.becode.org/"><b>BeCode</b></a>. A 6-months challenge that will offer me new working opportunities.
 				I am graduated with a Bachelor's Degree in Political Sciences and a Master's Degree in European Studies. I gained experience within an NGO and within the European Parliament.				In the next few months, I hope I will use my new superpowers to find a proper job in the cultural sector and more specifically in the music industry (why not a startup based in Amsterdam). 
 				I am a curious mind and I have many interests. I am a music lover and could spend my free time going to gigs or digging for new finds (I have eclectic tastes going from new wave, indie, latin vibes, minimal or acid techno). Besides, I am passionate about culture and arts. I am a novice photographer and I wish to become a guitar-player and a good painter. I played basketball for 17 years and now I run, swim and bike a lot. I also enjoy long walks in nature. I love travelling, especially backpacking and citytrips with locals.</p>
 			</div>
@@ -130,16 +131,8 @@
 		</div>
 
 		
+</main>
 
-		</div>
+<?php include 'partials/footer.php' ?>
+	
 
-		<?php include 'partials/footer.php' ?>
-	</body>		
-
-<!-- Scripts -->
-<!-- Bulma Icons -->
-<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-<!-- Javascript -->
-<script type="text/javascript" src="assets/js/add.js"></script>
-</body>
-</html>

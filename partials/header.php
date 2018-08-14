@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-	<header>
-			<!-- Nav bar -->
-			<nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
-				<div class="navbar-brand">
-					<a class="navbar-item" href="Experience.html" title="Experience"><i class="fas fa-suitcase"></i></a>
-					<a class="navbar-item" href="#studies" title="Studies"><i class="fas fa-graduation-cap"></i></a>
-					<a class="navbar-item" id="name" href="#intro" title="home">Charlotte Tusset</a>
-					<a class="navbar-item" href="#skills" title="skills"><i class="fas fa-cogs"></i></a>
-					<a class="navbar-item" href="contact.html""><i class="fas fa-paper-plane"></i></a>
-					<!-- <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-				      <span aria-hidden="true"></span>
-				      <span aria-hidden="true"></span>
-				      <span aria-hidden="true"></span>
-					</a> -->
-				</div>
-			</nav>
-		</header>
-</html>
+	<head>
+		<!-- Balises meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>My CV website</title>
+		<meta name="description" content="Charlotte Tusset website">
+
+		<!-- Links & scripts -->
+		<link rel="stylesheet" href="css/main.css"/>
+
+		<!-- Favicon à FAIRE -->
+		<link rel="icon" type="image/png" href="img/eye.svg" />
+	</head>
+
+	<body>
+		<nav>
+			
+		</nav>
