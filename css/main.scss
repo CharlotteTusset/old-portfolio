@@ -28,4 +28,36 @@ $primary-invert: $pink-invert;
 
 @import "../node_modules/bulma/bulma";
 
+/*Variables/mixins*/
+$green: #D2F1E4;
+$dark: #112124;
+$orange: #FF8585;
 
+body {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.left-col {
+	margin-left: 30px;
+	background-color: $green;
+	img {
+		border-radius: 50%;
+		max-width: 80%;
+		margin-left: 20px;
+	}
+	p {
+		padding-top: 10px;
+		text-align: center;
+	}
+	ul {
+		display: flex;
+		justify-content: space-around;
+		a {
+			&:link {color: $dark;}
+			&:hover {color: $orange;}
+			&:visited {color: $orange;}
+		}
+	}
+}

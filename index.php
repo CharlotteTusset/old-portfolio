@@ -4,13 +4,56 @@
 <main>
 	<div class="columns">
 	  <!-- space left -->
-	  <div class="column is-2">bla</div>
+	  <div class="column is-2 left-col">
+	  	<img src="img/profilepic.jpg" alt="profilepic" id="profile">
+		<div class="avatar">
+			<p>Charlotte Tusset</p>
+			<p>Junior Web Developer</p><hr>
+  			<div class="social">
+				<ul>
+					<li> <a href="https://www.linkedin.com/in/charlottetusset/" target="_blank">
+						<span class="icon is-small">
+							<i class="fab fa-linkedin-in"></i>
+						</span>
+						</a>
+					</li>
+					<li> <a href="https://github.com/CharlotteTusset" target="_blank">
+						<span class="icon is-small">
+							<i class="fab fa-github"></i>
+						</span>
+						</a>
+					</li>
+					<li><a href="https://open.spotify.com/user/116777375?si=Um9Oehw7TaCB65pB63vSCw" target="_blank">
+						<span class="icon is-small">
+							<i class="fab fa-spotify"></i>
+						</span>
+						</a>
+					</li>
+					<li> <a href="https://twitter.com/C_YouKnow" target="_blank">
+						<span class="icon is-small">
+							<i class="fab fa-twitter"></i>
+						</span>
+						</a>
+					</li>
+					<li> <a href="https://www.facebook.com/profile.php?id=1110567677" target="_blank">
+						<span class="icon is-small">
+							<i class="fab fa-facebook-f"></i>
+						</span>
+						</a>
+					</li>
+					<li> <a href="https://www.instagram.com/ctusset/" target="_blank">
+						<span class="icon is-small">
+							<i class="fab fa-instagram"></i>
+						</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	  </div>
 	  <!-- Main column -->
 	  <div class="column is-8">
 	  	<div>
-	  		<figure class="image is-128x128 is-pulled-left">
-	  			<img src="img/profilepic.jpg" alt="profilepic">
-			</figure>
 			<p>Hello! I am currently a <b>Junior Web Developer</b> at <a href="https://www.becode.org/"><b>BeCode</b></a>. A 6-months challenge that will offer me new working opportunities.
 			I am graduated with a Bachelor's Degree in Political Sciences and a Master's Degree in European Studies. I gained experience within an NGO and within the European Parliament.				In the next few months, I hope I will use my new superpowers to find a proper job in the cultural sector and more specifically in the music industry (why not a startup based in Amsterdam). 
 			I am a curious mind and I have many interests. I am a music lover and could spend my free time going to gigs or digging for new finds (I have eclectic tastes going from new wave, indie, latin vibes, minimal or acid techno). Besides, I am passionate about culture and arts. I am a novice photographer and I wish to become a guitar-player and a good painter. I played basketball for 17 years and now I run, swim and bike a lot. I also enjoy long walks in nature. I love travelling, especially backpacking and citytrips with locals.</p>
@@ -21,53 +64,6 @@
 		 		<h2 class="subtitle"> A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading</h2>
     		</div>
   		</section>
-  		<!-- Social media -->
-  		<div id="social">
-				<ul>
-					<li><a href="mailto:charlotte.tusset@gmail.com" target="_blank">
-						<span class="fa-stack fa-lg">
-							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fas fa-at fa-stack-1x fa-inverse"></i>
-						</span>
-						</a>
-					</li>
-					<li> <a href="https://www.linkedin.com/in/charlottetusset/" target="_blank">
-						<span class="fa-stack fa-lg">
-							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
-						</span>
-						</a>
-					</li>
-					<li> <a href="https://github.com/CharlotteTusset" target="_blank">
-						<span class="fa-stack fa-lg">
-							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fab fa-github fa-stack-1x fa-inverse"></i>
-						</span>
-						</a>
-					</li>
-					<li> <a href="https://twitter.com/C_YouKnow" target="_blank">
-						<span class="fa-stack fa-lg">
-							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-						</span>
-						</a>
-					</li>
-					<li> <a href="https://www.facebook.com/profile.php?id=1110567677" target="_blank">
-						<span class="fa-stack fa-lg">
-							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-						</span>
-						</a>
-					</li>
-					<li> <a href="https://www.instagram.com/ctusset/" target="_blank">
-						<span class="fa-stack fa-lg">
-							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-						</span>
-						</a>
-					</li>
-				</ul>
-		</div>
 	  </div>
 	  <!-- space right -->
 	  <div class="column is-2">bla</div>
