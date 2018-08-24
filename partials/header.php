@@ -17,7 +17,7 @@
 	<div class="columns">
 		<div class="column is-2"></div>
 		<div class="column is-10">
-			<nav class="navbar is-transparent">
+			<nav class="navbar">
 				<div class="navbar-brand">
 					<a class="navbar-item" href="./index.php">
 						<img src="img/eye.png" alt="Eye">

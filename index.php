@@ -51,24 +51,138 @@
 			</div>
 		</div>
 	  </div>
-	  <!-- Main column -->
-	  <div class="column is-8">
-	  	<div>
-			<p>Hello! I am currently a <b>Junior Web Developer</b> at <a href="https://www.becode.org/"><b>BeCode</b></a>. A 6-months challenge that will offer me new working opportunities.
-			I am graduated with a Bachelor's Degree in Political Sciences and a Master's Degree in European Studies. I gained experience within an NGO and within the European Parliament.				In the next few months, I hope I will use my new superpowers to find a proper job in the cultural sector and more specifically in the music industry (why not a startup based in Amsterdam). 
-			I am a curious mind and I have many interests. I am a music lover and could spend my free time going to gigs or digging for new finds (I have eclectic tastes going from new wave, indie, latin vibes, minimal or acid techno). Besides, I am passionate about culture and arts. I am a novice photographer and I wish to become a guitar-player and a good painter. I played basketball for 17 years and now I run, swim and bike a lot. I also enjoy long walks in nature. I love travelling, especially backpacking and citytrips with locals.</p>
+	  <!-- centered column -->
+	  <div class="column is-8 center-col">
+		  	<div class="description">
+		  	<div class="intro" id="intro">
+		  		<h1 class="title is-1">About me</h1>
+				<p><b>Hello, I am Charlotte!</b><p> 
+				<p>I am currently Junior Web Developer at <a href="https://www.becode.org/"><b>BeCode</b></a>. A 6-months bootcamp that will offer me new working opportunities.
+				I am initially graduated with a Bachelor's Degree in Political Sciences and a Master's Degree in European Studies and I gained experience in the european institutions and in a NGO but I didn't feel that this working environment really fulfiled me.
+				<br>In the next few months, I hope I will use my new superpowers to find a proper job in the cultural sector and more specifically in the music industry. I am a curious mind and I have many interests. I am a music lover and could spend my free time going to gigs or digging for new finds (I have eclectic tastes, go check my spotify playlists). Besides, I am passionate about culture and arts. I am a novice photographer and I wish to become a guitar-player and a good painter. I played basketball for 17 years and now I run, swim and bike. I also enjoy long walks in nature.</p>
+				<hr>
+			</div>
+			<div class="columns">
+				<div class="column is-6">
+					<h2 class="title is-2">personal info</h2>
+					<div class="columns container-perso">
+						<div class="column is-6 info">
+							<p>Full name</p>
+							<p>D.O.B</p>
+							<p>Nationality</p>
+							<p>Current city</p>
+							<p>Email</p>
+						</div>
+						<div class="column is-6">
+							<p>Charlotte Tusset</p>
+							<p>04/11/1991</p>
+							<p>Belgian</p>
+							<p>Brussels</p>
+							<p><a href="mailto:charlotte.tusset@gmail.com" target="_blank">charlotte.tusset@gmail.com</a></p>	
+						</div>
+					</div>
+				</div>
+				<div class="column is-6">
+					<h2 class="title is-2">languages</h2>
+					<div class="columns container-perso">
+						<div class="column is-6 info">
+							<p>French</p>
+							<p>English</p>
+							<p>Dutch</p>
+							<p>Italian</p>
+						</div>
+						<div class="column is-6 container-level">
+							<ul>
+								<i class="fas fa-circle level"></i>
+								<i class="fas fa-circle level"></i>
+								<i class="fas fa-circle level"></i>
+								<i class="fas fa-circle level"></i>
+								<i class="fas fa-circle level"></i>
+							</ul>
+							<ul>
+								<i class="fas fa-circle level"></i>
+								<i class="fas fa-circle level"></i>
+								<i class="fas fa-circle level"></i>
+								<i class="fas fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+							</ul>
+							<ul>
+								<i class="fas fa-circle level"></i>
+								<i class="fas fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+							</ul>
+							<ul>
+								<i class="fas fa-circle level"></i>
+								<i class="fas fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>	
+							</ul>
+						</div>
+					</div>				
+				</div>
+			</div>
 		</div>
-		<section class="section">
-		 	<div class="container">
-		 		<h1 class="title">Section</h1>
-		 		<h2 class="subtitle"> A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading</h2>
-    		</div>
-  		</section>
+		<hr>
+		<div class="experience" id="experience">
+			<h1 class="title is-1">Experience</h1>
+			<div class="timeline is-centered">
+			  <header class="timeline-header">
+			    <span class="tag is-medium is-primary">Start</span>
+			  </header>
+			  <div class="timeline-item is-primary">
+			    <div class="timeline-marker is-primary"></div>
+			    <div class="timeline-content">
+			      <p class="heading">January 2016</p>
+			      <p>Timeline content - Can include any HTML element</p>
+			    </div>
+			  </div>
+			  <div class="timeline-item is-warning">
+			    <div class="timeline-marker is-warning is-image is-32x32">
+			      <img src="http://bulma.io/images/placeholders/32x32.png">
+			    </div>
+			    <div class="timeline-content">
+			      <p class="heading">February 2016</p>
+			      <p>Timeline content - Can include any HTML element</p>
+			    </div>
+			  </div>
+			  <header class="timeline-header">
+			    <span class="tag is-primary">2017</span>
+			  </header>
+			  <div class="timeline-item is-danger">
+			    <div class="timeline-marker is-danger is-icon">
+			      <i class="fa fa-flag"></i>
+			    </div>
+			    <div class="timeline-content">
+			      <p class="heading">March 2017</p>
+			      <p>Timeline content - Can include any HTML element</p>
+			    </div>
+			  </div>
+			  <header class="timeline-header">
+			    <span class="tag is-medium is-primary">End</span>
+			  </header>
+			</div>
+		</div>
+		<hr>
+		<div class="studies" id="studies">
+			<h1 class="title is-1">Studies</h1>
+		</div>
 	  </div>
 	  <!-- space right -->
-	  <div class="column is-2">bla</div>
+	  <div class="column is-2">
+	  	<aside class="menu is-right">
+	  		<p class="menu-label">Menu</p>
+	  		<ul class="menu-list">
+	  			<li><a href="#intro">About me</a></li>
+	  			<li><a href="#experience"><i class="fas fa-briefcase"></i></a></li>
+    			<li><a href="#studies">Studies</a></li>
+	  		</ul>
+	  	</aside>
+	  </div>
 	</div>
-
+</main>
 
 
 		<div class='block'>
@@ -81,7 +195,7 @@
 				<div class="resume-date">September 2017 - December 2017</div>
 				<br><p> I created Excel databases for the implementation of the programme COSWIN (CMMS). I analysed data and resolved inconsistencies and I quickly adapted to a new working environment (engineering). </p>
 				<br><br>
-				<h2 class="position">Francis Vals Trainee - The Progressive Alliance of the Socialists and Democrats</h2>
+				<h2 class="position">Francis Vals Trainee - The levelive Alliance of the Socialists and Democrats</h2>
 				<div class="resume-date">February 2017 - July 2017</div>
 				<br><p>I drafted Committee meeting minutes and summarised them for future use. I organised two conferences for the CULT Committee with MEPs, CSO, experts and citizens. I advised the Coordinator of the CULT Committee on ongoing reports. I did research on specific subjects (e.g. international cultural relations, copyright, skills agenda).</p>
 				<br><br>
@@ -108,19 +222,6 @@
 			</div>
 		</div>
 
-		<div class='block'>
-			<div id="skills">
-				<h1><i class="fas fa-cogs"></i>&nbsp;<strong>Skills</strong></h1>
-				<h2 class="position">Languages</h2>
-				<ul class="languages">
-					<li>French</li>&nbsp;<progress value="100" max="100"></progress><br>
-					<li>English</li>&nbsp;<progress value="75" max="100"></progress><br>
-					<li>Dutch</li>&nbsp;<progress value="55" max="100"></progress><br>
-					<li>Italian</li>&nbsp;<progress value="55" max="100"></progress><br>
-				</ul>
-			</div>
-		</div>	
-</main>
 
 <?php include 'partials/footer.php' ?>
 	

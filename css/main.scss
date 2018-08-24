@@ -1,47 +1,34 @@
 @charset "utf-8";
 
-// Customization
-
-// You can easily customize Bulma with your own variables.
-// Just uncomment the following block to see the result.
-
-/*
-// 1. Import the initial variables
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 
-// 2. Set your own initial variables
-// Update the blue shade, used for links
-$blue: #06bcef;
-// Add pink and its invert
-$pink: #ff8080;
-$pink-invert: #fff;
-// Update the sans-serif font family
-$family-sans-serif: "Helvetica", "Arial", sans-serif;
-
-// 3. Set the derived variables
-// Use the new pink as the primary color
-$primary: $pink;
-$primary-invert: $pink-invert;
-
-// 4. Import the rest of Bulma
-*/
+$green: #D2F1E4;
+$primary: $green;
+$dark-green: #112124;
+$orange: #FF8585;
+$danger: $orange;
 
 @import "../node_modules/bulma/bulma";
 
-/*Variables/mixins*/
-$green: #D2F1E4;
-$dark: #112124;
-$orange: #FF8585;
 
 body {
 	margin-left: 10px;
 	margin-right: 10px;
+	background-color: #F5F5F5;
 }
 
+a {
+	&:link {color: $dark-green;}
+	&:hover {color: $orange;}
+	&:visited {color: $orange;}
+}
+
+.navbar {background-color: transparent}
 
 .left-col {
 	margin-left: 30px;
 	background-color: $green;
+	max-height: 350px;
 	img {
 		border-radius: 50%;
 		max-width: 80%;
@@ -54,10 +41,30 @@ body {
 	ul {
 		display: flex;
 		justify-content: space-around;
-		a {
-			&:link {color: $dark;}
-			&:hover {color: $orange;}
-			&:visited {color: $orange;}
+	}
+}
+
+.center-col {
+	background-color: white;
+	margin-left: 10px;
+	.break {
+		background-color: #F5F5F5;
+		height: 5px;
+	}
+	.container-perso {
+		.info {
+			font-weight: bold;
+		}
+		p {
+			padding: 10px;
+		}
+		ul {
+		display:flex;
+		}
+		.container-level {
+			padding-top: 30px;
+			.level {color: $green;}
 		}
 	}
 }
+
