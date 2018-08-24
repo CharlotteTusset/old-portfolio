@@ -2,14 +2,14 @@
 
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 
-$green: #D2F1E4;
+$green: #B2CCC1;
 $primary: $green;
-$dark-green: #112124;
+$dark-green: #093321;
 $orange: #FF8585;
 $danger: $orange;
 
 @import "../node_modules/bulma/bulma";
-
+@import '../node_modules/bulma-timeline/dist/css/bulma-timeline.sass';
 
 body {
 	margin-left: 10px;
@@ -20,7 +20,7 @@ body {
 a {
 	&:link {color: $dark-green;}
 	&:hover {color: $orange;}
-	&:visited {color: $orange;}
+	&:visited {color: $dark-green;}
 }
 
 .navbar {background-color: transparent}
@@ -47,10 +47,6 @@ a {
 .center-col {
 	background-color: white;
 	margin-left: 10px;
-	.break {
-		background-color: #F5F5F5;
-		height: 5px;
-	}
 	.container-perso {
 		.info {
 			font-weight: bold;

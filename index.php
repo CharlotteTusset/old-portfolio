@@ -127,48 +127,101 @@
 		</div>
 		<hr>
 		<div class="experience" id="experience">
-			<h1 class="title is-1">Experience</h1>
+			<h1 class="title is-1">Timeline</h1>
 			<div class="timeline is-centered">
 			  <header class="timeline-header">
-			    <span class="tag is-medium is-primary">Start</span>
+			    <span class="tag is-medium is-danger">2018</span>
+			  </header>
+			  <div class="timeline-item is-danger">
+			    <div class="timeline-marker is-danger"></div>
+			    <div class="timeline-content">
+			      <p class="heading">May - November 2018</p>
+			      <p>Junior Web Developer</p>
+			      <p>Be Code</p>
+			    </div>
+			  </div>
+			  <header class="timeline-header">
+			    <span class="tag is-danger">2017</span>
+			  </header>
+			  <div class="timeline-item is-danger">
+			  	<div class="timeline-marker is-danger"></div>
+			    <div class="timeline-content">
+			      <p class="heading">September - December 2017</p>
+			      <p>Project Assistant</p>
+			      <p>MR Engineering</p>
+			    </div>
+			  </div>
+			  <div class="timeline-item is-danger">
+			  	<div class="timeline-marker is-danger"></div>
+			    <div class="timeline-content">
+			      <p class="heading">February - July 2017</p>
+			      <p>Francis Vals Trainee</p>
+			      <p>The progressive Alliance of the Socialists and Democrats of the European Parliament</p>
+			    </div>
+			  </div>
+			  <header class="timeline-header">
+			    <span class="tag is-danger">2016</span>
+			  </header>
+			  <div class="timeline-item is-danger">
+			    <div class="timeline-marker is-danger"></div>
+			    <div class="timeline-content">
+			      <p class="heading">April - July 2016</p>
+			      <p>Trainee - Parliamentary Assistant</p>
+			      <p>MEP Hugues Bayet - European Parliament</p>
+			    </div>
+			  </div>
+			  <div class="timeline-item is-danger">
+			    <div class="timeline-marker is-danger"></div>
+			    <div class="timeline-content">
+			      <p class="heading">October 2015 - March 2016</p>
+			      <p>European Affairs and Partnerships Policy Assistant</p>
+			      <p>Search for Common Ground</p>
+			    </div>
+			  </div>
+			  <header class="timeline-header">
+			    <span class="tag is-danger">2015</span>
 			  </header>
 			  <div class="timeline-item is-primary">
 			    <div class="timeline-marker is-primary"></div>
 			    <div class="timeline-content">
-			      <p class="heading">January 2016</p>
-			      <p>Timeline content - Can include any HTML element</p>
+			      <p class="heading">September 2013 - August 2015</p>
+			      <p>Master's Degree in European Studies</p>
+			      <p>Université Catholique de Louvain</p>
 			    </div>
 			  </div>
-			  <div class="timeline-item is-warning">
-			    <div class="timeline-marker is-warning is-image is-32x32">
-			      <img src="http://bulma.io/images/placeholders/32x32.png">
-			    </div>
+			  <div class="timeline-item is-primary">
+			    <div class="timeline-marker is-primary"></div>
 			    <div class="timeline-content">
-			      <p class="heading">February 2016</p>
-			      <p>Timeline content - Can include any HTML element</p>
+			      <p class="heading">September 2014 - February 2015</p>
+			      <p>Erasmus</p>
+			      <p>Università Degli Studi di Firenze</p>
 			    </div>
 			  </div>
 			  <header class="timeline-header">
-			    <span class="tag is-primary">2017</span>
+			    <span class="tag is-primary">2013</span>
 			  </header>
-			  <div class="timeline-item is-danger">
-			    <div class="timeline-marker is-danger is-icon">
-			      <i class="fa fa-flag"></i>
-			    </div>
+			  <div class="timeline-item is-primary">
+			    <div class="timeline-marker is-primary"></div>
 			    <div class="timeline-content">
-			      <p class="heading">March 2017</p>
-			      <p>Timeline content - Can include any HTML element</p>
+			      <p class="heading">January - June 2013</p>
+			      <p>Erasmus</p>
+			      <p>University College Dublin</p>
 			    </div>
 			  </div>
-			  <header class="timeline-header">
-			    <span class="tag is-medium is-primary">End</span>
-			  </header>
+			  <div class="timeline-item is-primary">
+			    <div class="timeline-marker is-primary"></div>
+			    <div class="timeline-content">
+			      <p class="heading">September 2009 - June 2013</p>
+			      <p>Bachelor's Degree in Political Sciences</p>
+			      <p>Université de Liège</p>
+			    </div>
+			  </div>
+			  <div class="timeline-item is-primary">
+			    <div class="timeline-marker is-medium is-primary is-icon"><i class="fa fa-flag"></i></div>
+			  </div>
 			</div>
 		</div>
-		<hr>
-		<div class="studies" id="studies">
-			<h1 class="title is-1">Studies</h1>
-		</div>
+		<div class="studies" id="studies"></div>
 	  </div>
 	  <!-- space right -->
 	  <div class="column is-2">
@@ -185,7 +238,7 @@
 </main>
 
 
-		<div class='block'>
+	<!-- 	<div class='block'>
 			<div id="experience">
 				<br><br><h1><i class="fas fa-suitcase"></i>&nbsp;<strong>Experience</strong></h1>
 				<h2 class="position">Junior Web Developer - Be Code</h2>
@@ -221,7 +274,7 @@
 					<p>Erasmus: University College Dublin, 6 months</p>
 			</div>
 		</div>
-
+ -->
 
 <?php include 'partials/footer.php' ?>
 	
