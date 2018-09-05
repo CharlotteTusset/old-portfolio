@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('Hello Bulma!');
+  console.log('Hello!');
 });
 
 // Burger menu
@@ -27,4 +27,60 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+});
+
+// Script to hide/show content TO SIMPLIFY
+
+$( "#more" ).click(function() {
+  $( "#collapse" ).toggle( "slow", function() {
+    // Animation complete.
+  });
+});
+
+$( "#more2" ).click(function() {
+  $( "#collapse2" ).toggle( "slow", function() {
+    // Animation complete.
+  });
+});
+
+$( "#more3" ).click(function() {
+  $( "#collapse3" ).toggle( "slow", function() {
+    // Animation complete.
+  });
+});
+
+$( "#more4" ).click(function() {
+  $( "#collapse4" ).toggle( "slow", function() {
+    // Animation complete.
+  });
+});
+
+$( "#more5" ).click(function() {
+  $( "#collapse5" ).toggle( "slow", function() {
+    // Animation complete.
+  });
+});
+
+$( "#more6" ).click(function() {
+  $( "#collapse6" ).toggle( "slow", function() {
+    // Animation complete.
+  });
+});
+
+$( "#more7" ).click(function() {
+  $( "#collapse7" ).toggle( "slow", function() {
+    // Animation complete.
+  });
+});
+
+$( "#more8" ).click(function() {
+  $( "#collapse8" ).toggle( "slow", function() {
+    // Animation complete.
+  });
+});
+
+$( "#more9" ).click(function() {
+  $( "#collapse9" ).toggle( "slow", function() {
+    // Animation complete.
+  });
 });

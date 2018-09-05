@@ -8,7 +8,9 @@
 	  	<img src="img/profilepic.jpg" alt="profilepic" id="profile">
 		<div class="avatar">
 			<p>Charlotte Tusset</p>
-			<p>Junior Web Developer</p><hr>
+			<p>Junior Web Developer</p>
+			<p>FR | EN | IT | NL</p>
+			<hr>
   			<div class="social">
 				<ul>
 					<li> <a href="https://www.linkedin.com/in/charlottetusset/" target="_blank">
@@ -53,7 +55,7 @@
 	  </div>
 	  <!-- centered column -->
 	  <div class="column is-8 center-col">
-		  	<div class="description">
+		<div class="description">
 		  	<div class="intro" id="intro">
 		  		<h1 class="title is-1">About me</h1>
 				<p><b>Hello, I am Charlotte!</b><p> 
@@ -83,13 +85,13 @@
 					</div>
 				</div>
 				<div class="column is-6">
-					<h2 class="title is-2">languages</h2>
+					<h2 class="title is-2">skills</h2>
 					<div class="columns container-perso">
 						<div class="column is-6 info">
-							<p>French</p>
-							<p>English</p>
-							<p>Dutch</p>
-							<p>Italian</p>
+							<p>HTML/CSS</p>
+							<p>Javascript</p>
+							<p>PHP</p>
+							<p>Frameworks</p>
 						</div>
 						<div class="column is-6 container-level">
 							<ul>
@@ -138,6 +140,9 @@
 			      <p class="heading">May - November 2018</p>
 			      <p>Junior Web Developer</p>
 			      <p>Be Code</p>
+				  <button type="button" class="button is-small is-rounded" id="more">+</button>
+				  <p class="collapse has-text-justified" id="collapse" style="display:none">
+				  A 6-month coding bootcamp where I am developing my coding skills: HTML, CSS, JS, Jquery, PHP etc. And also soft skills through workshops and presentations (Algorave, Creative Commons, HTLM5). I also attended a Hackathon on Music Tech. </p>
 			    </div>
 			  </div>
 			  <header class="timeline-header">
@@ -149,6 +154,9 @@
 			      <p class="heading">September - December 2017</p>
 			      <p>Project Assistant</p>
 			      <p>MR Engineering</p>
+			      <button type="button" class="button is-small is-rounded" id="more2">+</button>
+				  <p class="collapse has-text-justified" id="collapse2" style="display:none">
+				  Creating Excel databases for the implementation of the programme COSWIN (CMMS). Analysing data and resolving inconsistencies and I quickly adapted to a new working environment (engineering).</p>
 			    </div>
 			  </div>
 			  <div class="timeline-item is-danger">
@@ -157,6 +165,9 @@
 			      <p class="heading">February - July 2017</p>
 			      <p>Francis Vals Trainee</p>
 			      <p>The progressive Alliance of the Socialists and Democrats of the European Parliament</p>
+			      <button type="button" class="button is-small is-rounded" id="more3">+</button>
+				  <p class="collapse has-text-justified" id="collapse3" style="display:none">
+				  Drafting Committee meeting minutes and summarising them for future use. Organising two conferences for the CULT Committee with MEPs, CSO, experts and citizens. Advising the Coordinator of the Culture & Education Committee on ongoing reports. Doing research on specific subjects (e.g. international cultural relations, copyright, skills agenda).</p>
 			    </div>
 			  </div>
 			  <header class="timeline-header">
@@ -168,6 +179,9 @@
 			      <p class="heading">April - July 2016</p>
 			      <p>Trainee - Parliamentary Assistant</p>
 			      <p>MEP Hugues Bayet - European Parliament</p>
+			      <button type="button" class="button is-small is-rounded" id="more4">+</button>
+				  <p class="collapse has-text-justified" id="collapse4" style="display:none">
+				  Drafting votes' justifications and tabling amendments on civil liberties, justice and home affairs, and on tax evasion related issues. Writing parliamentary notes for MEP's meetings and interviews and establishing the weekly press review.</p>
 			    </div>
 			  </div>
 			  <div class="timeline-item is-danger">
@@ -176,52 +190,72 @@
 			      <p class="heading">October 2015 - March 2016</p>
 			      <p>European Affairs and Partnerships Policy Assistant</p>
 			      <p>Search for Common Ground</p>
+			      <button type="button" class="button is-small is-rounded" id="more5">+</button>
+				  <p class="collapse has-text-justified" id="collapse5" style="display:none">
+				  Researches on the EU and bilateral donors. Drafting the EU weekly digest on 'peacebuilding' sent to HQ and field teams. Representing the NGO at meetings with the European institutions and CSO. Launching the Twitter account for the Brussels office and managing social media. Collecting information from the field to create the annual report.</p>
 			    </div>
 			  </div>
 			  <header class="timeline-header">
 			    <span class="tag is-danger">2015</span>
 			  </header>
-			  <div class="timeline-item is-primary">
-			    <div class="timeline-marker is-primary"></div>
-			    <div class="timeline-content">
+			  <!-- <header class="timeline-header">
+			    <span class="tag is-medium is-primary">Studies</span>
+			  </header> -->
+			  <div class="timeline-item is-danger studies" id="studies">
+			    <div class="timeline-marker is-danger"></div>
+			    <div class="timeline-content is-danger">
 			      <p class="heading">September 2013 - August 2015</p>
 			      <p>Master's Degree in European Studies</p>
 			      <p>Université Catholique de Louvain</p>
+			      <button type="button" class="button is-small is-rounded" id="more6">+</button>
+				  <p class="collapse has-text-justified" id="collapse6" style="display:none">
+				  <i>Cum Laude</i><br>
+				  Multidisciplinar master's degree between political sciences, law, economics and philosophy.<br>Thesis: The EU migration policy facing the Mediterranean situation: a change of approach?</p>
 			    </div>
 			  </div>
-			  <div class="timeline-item is-primary">
-			    <div class="timeline-marker is-primary"></div>
-			    <div class="timeline-content">
+			  <div class="timeline-item is-danger">
+			    <div class="timeline-marker is-danger"></div>
+			    <div class="timeline-content is-danger">
 			      <p class="heading">September 2014 - February 2015</p>
 			      <p>Erasmus</p>
 			      <p>Università Degli Studi di Firenze</p>
+			      <button type="button" class="button is-small is-rounded" id="more7">+</button>
+				  <p class="collapse" id="collapse7" style="display:none">
+				  <i>Cum Laude</i><br>
+				  6-month stay at Università Degli di Firenze, Italy. I developed my Italian skills and I attended classes on Human Rights & Econometry.</p>
 			    </div>
 			  </div>
-			  <header class="timeline-header">
-			    <span class="tag is-primary">2013</span>
+			  <header class="timeline-header is-danger">
+			    <span class="tag">2013</span>
 			  </header>
-			  <div class="timeline-item is-primary">
-			    <div class="timeline-marker is-primary"></div>
-			    <div class="timeline-content">
+			  <div class="timeline-item is-danger">
+			    <div class="timeline-marker is-danger"></div>
+			    <div class="timeline-content is-danger">
 			      <p class="heading">January - June 2013</p>
 			      <p>Erasmus</p>
 			      <p>University College Dublin</p>
+			      <button type="button" class="button is-small is-rounded" id="more8">+</button>
+				  <p class="collapse" id="collapse8" style="display:none">
+				  6-month stay at University College Dublin, Ireland in the faculty of Social Sciences & Political sciences. I attended classes such as Ireland & the US, America Abroad, MENA, migration and social integration in Ireland or German philosophy.</p>
 			    </div>
 			  </div>
-			  <div class="timeline-item is-primary">
-			    <div class="timeline-marker is-primary"></div>
-			    <div class="timeline-content">
+			  <div class="timeline-item is-danger">
+			    <div class="timeline-marker is-danger"></div>
+			    <div class="timeline-content is-danger">
 			      <p class="heading">September 2009 - June 2013</p>
 			      <p>Bachelor's Degree in Political Sciences</p>
 			      <p>Université de Liège</p>
+			      <button type="button" class="button is-small is-rounded" id="more9">+</button>
+				  <p class="collapse has-text-justified" id="collapse9" style="display:none">
+				  Part of the faculty of law, this bachelor's degree offered me a good knowledge of belgian law as well as other fields such as philosophy, sociology, international relations and economics.</p>
 			    </div>
 			  </div>
-			  <div class="timeline-item is-primary">
-			    <div class="timeline-marker is-medium is-primary is-icon"><i class="fa fa-flag"></i></div>
+			  <div class="timeline-item is-danger">
+			    <div class="timeline-marker is-medium is-icon is-danger"><i class="fa fa-flag"></i></div>
 			  </div>
 			</div>
 		</div>
-		<div class="studies" id="studies"></div>
+		<br>
 	  </div>
 	  <!-- space right -->
 	  <div class="column is-2">
@@ -229,7 +263,7 @@
 	  		<p class="menu-label">Menu</p>
 	  		<ul class="menu-list">
 	  			<li><a href="#intro">About me</a></li>
-	  			<li><a href="#experience"><i class="fas fa-briefcase"></i></a></li>
+	  			<li><a href="#experience">Experience</a></li>
     			<li><a href="#studies">Studies</a></li>
 	  		</ul>
 	  	</aside>
@@ -237,45 +271,5 @@
 	</div>
 </main>
 
-
-	<!-- 	<div class='block'>
-			<div id="experience">
-				<br><br><h1><i class="fas fa-suitcase"></i>&nbsp;<strong>Experience</strong></h1>
-				<h2 class="position">Junior Web Developer - Be Code</h2>
-				<div class="resume-date">May 2018 - November 2018</div>
-				<br><p>I took part of the training Be Code where I developped my coding skills: HTML, CSS, Java, Python, Ruby, PHP etc. I am able to build a website.</p>
-				<br><h2 class="position">Project Assistant - MR Engineering</h2>
-				<div class="resume-date">September 2017 - December 2017</div>
-				<br><p> I created Excel databases for the implementation of the programme COSWIN (CMMS). I analysed data and resolved inconsistencies and I quickly adapted to a new working environment (engineering). </p>
-				<br><br>
-				<h2 class="position">Francis Vals Trainee - The levelive Alliance of the Socialists and Democrats</h2>
-				<div class="resume-date">February 2017 - July 2017</div>
-				<br><p>I drafted Committee meeting minutes and summarised them for future use. I organised two conferences for the CULT Committee with MEPs, CSO, experts and citizens. I advised the Coordinator of the CULT Committee on ongoing reports. I did research on specific subjects (e.g. international cultural relations, copyright, skills agenda).</p>
-				<br><br>
-				<h2 class="position">Trainee - Parliamentary Assistant of MEP Hugues Bayet</h2>
-				<div class="resume-date">April 2016 - July 2016</div>
-				<br><p>I drafted votes' justifications and tabled amendments on civil liberties, justice and home affairs, and on tax evasion related issues. I wrote parliamentary notes for MEP's meetings and interviews and I established the weekly press review.</p>
-				<br><br>
-				<h2 class="position">European Affairs and Partnerships Policy Assistant - Search for Common Ground</h2>
-				<div class="resume-date">October 2015 - March 2016</div>
-				<br><p>I conducted researches on EU and bilateral donors for the field. Drafted the EU weekly digest on 'peacebuilding' sent to HQ and field teams. I represented the NGO at meetings with the European institutions and CSO. I launched the Twitter account for the Brussels office and managed social media. I collected information from the field to create the annual report.</p>
-			</div>
-			<div id="studies">
-				<br><br><h1><i class="fas fa-graduation-cap"></i>&nbsp;<strong>Studies</strong></h1>
-				<h2 class="position">M.A in European Studies - Université Catholique de Louvain &amp Université Saint-Louis Bruxelles</h2>
-				<div class="resume-date">September 2013 - August 2015</div>
-				<br><p>Multidisciplinar master's degree between political sciences, law, economics and philosophy.
-					<p>Thesis: The EU migration policy facing the Mediterranean situation: a change of approach?</p>
-					<p>Erasmus: Università Degli Studi di Firenze, 6 months</p>
-					
-					<br><br><h2 class="position">B.A in Political Sciences - Université de Liège</h2>
-					<div class="resume-date">September 2009 - June 2013</div>
-					<br><p>Part of the faculty of law, this bachelor's degree offered me a good knowledge of belgian law as well as other branches such as philosophy, sociology, international relations and economics.</p>
-					<p>Erasmus: University College Dublin, 6 months</p>
-			</div>
-		</div>
- -->
-
 <?php include 'partials/footer.php' ?>
 	
-

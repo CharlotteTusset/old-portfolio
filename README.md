@@ -1,8 +1,15 @@
-# Project [BE CODE](https://github.com/becodeorg) - My CV
+# Project - My CV
 
 ## Personal website
 
-* HTML/CSS (Sass)
+Link: 
+
+---
+
+## Made with
+
+* HTML/CSS
+	* Sass
 	* [Bulma](https://bulma.io/) framework
 * PHP
 * JS + Jquery
@@ -15,13 +22,10 @@
 * Realise a showcase for potential employers
 * Confirm my knowledge
 
-
 ---
-
-## Screenshots
-
-
 
 ## Made by Charlotte Tusset
 
-(Add CC)
+![Logo by Gregor Cresnar](img/eye.png)    
+
+[Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)  

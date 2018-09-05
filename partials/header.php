@@ -7,10 +7,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>My CV website</title>
 		<meta name="description" content="Charlotte Tusset website">
-		<!-- Links & scripts -->
 		<link rel="stylesheet" href="css/main.css"/>
-		<!-- Favicon à FAIRE -->
 		<link rel="icon" type="image/png" href="img/eye.png"/>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
 	</head>
 
 <body>
@@ -56,7 +55,7 @@
 					            		</a>
 					          		</p>
 					          		<p class="control">
-						            	<a class="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.7.1/bulma-0.7.1.zip">
+						            	<a class="button is-primary" href="img/CV_Charlotte_EN.pdf">
 						              	<span class="icon">
 						                <i class="fas fa-download"></i>
 						              	</span>
