@@ -31,12 +31,12 @@
 			   			<div class="navbar-start">
 			   				<a class="navbar-item" href="index.php">Home</a>
 				   			<div class="navbar-item has-dropdown is-hoverable">
-				   				<a class="navbar-link" href="/documentation/overview/start/"> Docs</a>
+				   				<a class="navbar-link" href="/documentation/overview/start/"> Projects</a>
 	        				<div class="navbar-dropdown is-boxed">
 				          		<a class="navbar-item" href="/documentation/overview/start/">Overview</a>
+				          	<hr class="navbar-divider">
 					          <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">Modifiers</a>
 					          <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">Columns</a>
-		          			<hr class="navbar-divider">
 					          <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
 					            Elements
 					          </a>
@@ -55,7 +55,7 @@
 					            		</a>
 					          		</p>
 					          		<p class="control">
-						            	<a class="button is-primary" href="img/CV_Charlotte_EN.pdf">
+						            	<a class="button is-primary" href="img/CV_Web.pdf">
 						              	<span class="icon">
 						                <i class="fas fa-download"></i>
 						              	</span>

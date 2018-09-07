@@ -7,7 +7,7 @@
 	  <div class="column is-2 left-col">
 	  	<img src="img/profilepic.jpg" alt="profilepic" id="profile">
 		<div class="avatar">
-			<p>Charlotte Tusset</p>
+			<p class="is-size-5">Charlotte Tusset</p>
 			<p>Junior Web Developer</p>
 			<p>FR | EN | IT | NL</p>
 			<hr>
@@ -64,34 +64,62 @@
 				<br>In the next few months, I hope I will use my new superpowers to find a proper job in the cultural sector and more specifically in the music industry. I am a curious mind and I have many interests. I am a music lover and could spend my free time going to gigs or digging for new finds (I have eclectic tastes, go check my spotify playlists). Besides, I am passionate about culture and arts. I am a novice photographer and I wish to become a guitar-player and a good painter. I played basketball for 17 years and now I run, swim and bike. I also enjoy long walks in nature.</p>
 				<hr>
 			</div>
-			<div class="columns">
-				<div class="column is-6">
-					<h2 class="title is-2">personal info</h2>
-					<div class="columns container-perso">
-						<div class="column is-6 info">
-							<p>Full name</p>
-							<p>D.O.B</p>
-							<p>Nationality</p>
-							<p>Current city</p>
-							<p>Email</p>
-						</div>
-						<div class="column is-6">
-							<p>Charlotte Tusset</p>
-							<p>04/11/1991</p>
-							<p>Belgian</p>
-							<p>Brussels</p>
-							<p><a href="mailto:charlotte.tusset@gmail.com" target="_blank">charlotte.tusset@gmail.com</a></p>	
-						</div>
-					</div>
+			<div class="columns container-perso">
+				<div class="column is-6 info">
+					<p>Full name</p>
+					<p>D.O.B</p>
+					<p>Nationality</p>
+					<p>Current city</p>
+					<p>Email</p>
 				</div>
 				<div class="column is-6">
-					<h2 class="title is-2">skills</h2>
+					<p>Charlotte Tusset</p>
+					<p>04/11/1991</p>
+					<p>Belgian</p>
+					<p>Brussels</p>
+					<p><a href="mailto:charlotte.tusset@gmail.com" target="_top">charlotte.tusset@gmail.com</a></p>	
+				</div>
+				<!-- Uncomment if necessary - PHP mailer required -->
+				<!-- <div class="column is-6">
+					<h2 class="title is-2">contact</h2>
+					<div class="form">
+						<div class="field">
+						  <label class="label">Name</label>
+						  <div class="control">
+						    <input class="input is-small is-primary" type="text" placeholder="e.g Alex Smith">
+						  </div>
+						</div>
+						<div class="field">
+						  <label class="label">Email</label>
+						  <div class="control">
+						    <input class="input is-small is-primary" type="email" placeholder="e.g. alexsmith@gmail.com">
+						  </div>
+						</div>
+						<div class="field">
+						  <label class="label">Text</label>
+						  <div class="control">
+						    <input class="input is-small is-primary" type="text" placeholder="e.g. Hello">
+						  </div>
+						</div>
+					</div>				
+				</div> -->
+			</div>
+		</div>
+		<hr>
+		<div>
+			<h2 class="title is-2">skills</h2>
 					<div class="columns container-perso">
 						<div class="column is-6 info">
-							<p>HTML/CSS</p>
-							<p>Javascript</p>
+							<p>HTML|CSS</p>
+							<p>Sass</p>
+							<p>Frameworks: Bootstrap, Materialize, Bulma</p>
+							<p>Javascript|JQuery</p>
 							<p>PHP</p>
-							<p>Frameworks</p>
+							<p>React</p>
+							<p>AngularJS</p>
+							<p>Ruby</p>
+							<p>NodeJS</p>
+							<p>Python</p>
 						</div>
 						<div class="column is-6 container-level">
 							<ul>
@@ -99,7 +127,14 @@
 								<i class="fas fa-circle level"></i>
 								<i class="fas fa-circle level"></i>
 								<i class="fas fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+							</ul>
+							<ul>
 								<i class="fas fa-circle level"></i>
+								<i class="fas fa-circle level"></i>
+								<i class="fas fa-circle level"></i>
+								<i class="fas fa-circle level"></i>
+								<i class="far fa-circle level"></i>
 							</ul>
 							<ul>
 								<i class="fas fa-circle level"></i>
@@ -111,25 +146,58 @@
 							<ul>
 								<i class="fas fa-circle level"></i>
 								<i class="fas fa-circle level"></i>
+								<i class="fas fa-circle level"></i>
 								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>	
 							</ul>
 							<ul>
 								<i class="fas fa-circle level"></i>
 								<i class="fas fa-circle level"></i>
+								<i class="fas fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>	
+							</ul>
+							<ul>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>	
+							</ul>
+							<ul>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>	
+							</ul>
+							<ul>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>	
+							</ul>
+							<ul>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>	
+							</ul>
+							<ul>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>
 								<i class="far fa-circle level"></i>
 								<i class="far fa-circle level"></i>
 								<i class="far fa-circle level"></i>	
 							</ul>
 						</div>
-					</div>				
-				</div>
-			</div>
+					</div>
 		</div>
 		<hr>
 		<div class="experience" id="experience">
-			<h1 class="title is-1">Timeline</h1>
+			<!-- <h1 class="title is-1">Timeline</h1> -->
 			<div class="timeline is-centered">
 			  <header class="timeline-header">
 			    <span class="tag is-medium is-danger">2018</span>
@@ -138,7 +206,7 @@
 			    <div class="timeline-marker is-danger"></div>
 			    <div class="timeline-content">
 			      <p class="heading">May - November 2018</p>
-			      <p>Junior Web Developer</p>
+			      <p class="has-text-weight-bold">Junior Web Developer</p>
 			      <p>Be Code</p>
 				  <button type="button" class="button is-small is-rounded" id="more">+</button>
 				  <p class="collapse has-text-justified" id="collapse" style="display:none">
@@ -152,7 +220,7 @@
 			  	<div class="timeline-marker is-danger"></div>
 			    <div class="timeline-content">
 			      <p class="heading">September - December 2017</p>
-			      <p>Project Assistant</p>
+			      <p class="has-text-weight-bold">Project Assistant</p>
 			      <p>MR Engineering</p>
 			      <button type="button" class="button is-small is-rounded" id="more2">+</button>
 				  <p class="collapse has-text-justified" id="collapse2" style="display:none">
@@ -163,7 +231,7 @@
 			  	<div class="timeline-marker is-danger"></div>
 			    <div class="timeline-content">
 			      <p class="heading">February - July 2017</p>
-			      <p>Francis Vals Trainee</p>
+			      <p class="has-text-weight-bold">Francis Vals Trainee</p>
 			      <p>The progressive Alliance of the Socialists and Democrats of the European Parliament</p>
 			      <button type="button" class="button is-small is-rounded" id="more3">+</button>
 				  <p class="collapse has-text-justified" id="collapse3" style="display:none">
@@ -177,7 +245,7 @@
 			    <div class="timeline-marker is-danger"></div>
 			    <div class="timeline-content">
 			      <p class="heading">April - July 2016</p>
-			      <p>Trainee - Parliamentary Assistant</p>
+			      <p class="has-text-weight-bold">Trainee - Parliamentary Assistant</p>
 			      <p>MEP Hugues Bayet - European Parliament</p>
 			      <button type="button" class="button is-small is-rounded" id="more4">+</button>
 				  <p class="collapse has-text-justified" id="collapse4" style="display:none">
@@ -188,7 +256,7 @@
 			    <div class="timeline-marker is-danger"></div>
 			    <div class="timeline-content">
 			      <p class="heading">October 2015 - March 2016</p>
-			      <p>European Affairs and Partnerships Policy Assistant</p>
+			      <p class="has-text-weight-bold">European Affairs and Partnerships Policy Assistant</p>
 			      <p>Search for Common Ground</p>
 			      <button type="button" class="button is-small is-rounded" id="more5">+</button>
 				  <p class="collapse has-text-justified" id="collapse5" style="display:none">
@@ -205,7 +273,7 @@
 			    <div class="timeline-marker is-danger"></div>
 			    <div class="timeline-content is-danger">
 			      <p class="heading">September 2013 - August 2015</p>
-			      <p>Master's Degree in European Studies</p>
+			      <p class="has-text-weight-bold">Master's Degree in European Studies</p>
 			      <p>Université Catholique de Louvain</p>
 			      <button type="button" class="button is-small is-rounded" id="more6">+</button>
 				  <p class="collapse has-text-justified" id="collapse6" style="display:none">
@@ -217,11 +285,10 @@
 			    <div class="timeline-marker is-danger"></div>
 			    <div class="timeline-content is-danger">
 			      <p class="heading">September 2014 - February 2015</p>
-			      <p>Erasmus</p>
+			      <p class="has-text-weight-bold">Erasmus</p>
 			      <p>Università Degli Studi di Firenze</p>
 			      <button type="button" class="button is-small is-rounded" id="more7">+</button>
-				  <p class="collapse" id="collapse7" style="display:none">
-				  <i>Cum Laude</i><br>
+				  <p class="collapse has-text-justified" id="collapse7" style="display:none">
 				  6-month stay at Università Degli di Firenze, Italy. I developed my Italian skills and I attended classes on Human Rights & Econometry.</p>
 			    </div>
 			  </div>
@@ -232,10 +299,10 @@
 			    <div class="timeline-marker is-danger"></div>
 			    <div class="timeline-content is-danger">
 			      <p class="heading">January - June 2013</p>
-			      <p>Erasmus</p>
+			      <p class="has-text-weight-bold">Erasmus</p>
 			      <p>University College Dublin</p>
 			      <button type="button" class="button is-small is-rounded" id="more8">+</button>
-				  <p class="collapse" id="collapse8" style="display:none">
+				  <p class="collapse has-text-justified" id="collapse8" style="display:none">
 				  6-month stay at University College Dublin, Ireland in the faculty of Social Sciences & Political sciences. I attended classes such as Ireland & the US, America Abroad, MENA, migration and social integration in Ireland or German philosophy.</p>
 			    </div>
 			  </div>
@@ -243,10 +310,11 @@
 			    <div class="timeline-marker is-danger"></div>
 			    <div class="timeline-content is-danger">
 			      <p class="heading">September 2009 - June 2013</p>
-			      <p>Bachelor's Degree in Political Sciences</p>
+			      <p class="has-text-weight-bold">Bachelor's Degree in Political Sciences</p>
 			      <p>Université de Liège</p>
 			      <button type="button" class="button is-small is-rounded" id="more9">+</button>
 				  <p class="collapse has-text-justified" id="collapse9" style="display:none">
+				  <i>Cum Laude</i><br>
 				  Part of the faculty of law, this bachelor's degree offered me a good knowledge of belgian law as well as other fields such as philosophy, sociology, international relations and economics.</p>
 			    </div>
 			  </div>
@@ -258,13 +326,13 @@
 		<br>
 	  </div>
 	  <!-- space right -->
-	  <div class="column is-2">
+	  <div class="column is-2 right-col">
 	  	<aside class="menu is-right">
 	  		<p class="menu-label">Menu</p>
 	  		<ul class="menu-list">
-	  			<li><a href="#intro">About me</a></li>
-	  			<li><a href="#experience">Experience</a></li>
-    			<li><a href="#studies">Studies</a></li>
+	  			<li><a href="#intro"><i class="fas fa-info-circle"></i> About me</a></li>
+	  			<li><a href="#experience"><i class="fas fa-cogs"></i> Experience</a></li>
+    			<li><a href="#studies"><i class="fas fa-graduation-cap"></i> Studies</a></li>
 	  		</ul>
 	  	</aside>
 	  </div>

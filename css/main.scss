@@ -1,8 +1,7 @@
 @charset "utf-8";
-
-@import "../node_modules/bulma/bulma";
+@import url('https://fonts.googleapis.com/css?family=Kreon|Montserrat|Open+Sans|Playfair+Display+SC|Sorts+Mill+Goudy');
 @import "../node_modules/bulma/sass/utilities/initial-variables";
-@import '../node_modules/bulma-timeline/dist/css/bulma-timeline.sass';
+
 
 $green: #B2CCC1;
 $dark-green: #093321;
@@ -11,12 +10,16 @@ $darkorange: #CE3535;
 
 $primary: $green;
 $danger: $orange;
-$warning: $darkorange;
+
+@import "../node_modules/bulma/bulma";
+@import '../node_modules/bulma-timeline/dist/css/bulma-timeline.sass';
 
 body {
+	width: 100%;
 	margin-left: 10px;
 	margin-right: 10px;
 	background-color: #F5F5F5;
+	font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -25,9 +28,20 @@ a {
 	&:visited {color: $dark-green;}
 }
 
-.navbar {background-color: transparent}
+.navbar {
+	background-color: transparent;
+	.navbar-item {
+		&:hover {
+			color: $orange;
+		}
+	.navbar-burger {color: $orange;}
+	.navbar-link:hover {color: $orange;}	
+	}
+}
 
 .left-col {
+	position: sticky;
+	top:0;
 	margin-left: 30px;
 	background-color: $green;
 	max-height: 380px;
@@ -46,6 +60,12 @@ a {
 	}
 }
 
+.right-col {
+	position: sticky;
+	top:0;
+	height: 100%;
+}
+
 .center-col {
 	background-color: white;
 	padding-bottom: 50px;
@@ -59,12 +79,16 @@ a {
 		text-align: justify;
 		}
 	}
+	.form div {
+		padding-right: 25px;
+	}
 	.container-perso {
 		.info {
 			font-weight: bold;
 		}
 		p {
 			padding: 10px;
+			padding-left: 30px;
 		}
 		ul {
 		display:flex;
@@ -75,8 +99,14 @@ a {
 		}
 	}
 	.experience {
-		padding-left: 30px;
+		padding-left: 10px;
 		padding-right: 30px;
+	}
+}
+
+aside {
+	a:hover{
+		color: $orange;
 	}
 }
 

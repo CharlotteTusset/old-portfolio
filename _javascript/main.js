@@ -30,57 +30,109 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Script to hide/show content TO SIMPLIFY
-
 $( "#more" ).click(function() {
   $( "#collapse" ).toggle( "slow", function() {
     // Animation complete.
-  });
+  }); 
+ if ($(this).text() == "+") { 
+      $(this).text("-"); 
+  } else { 
+      $(this).text("+"); 
+  }; 
 });
 
 $( "#more2" ).click(function() {
   $( "#collapse2" ).toggle( "slow", function() {
     // Animation complete.
   });
+  if ($(this).text() == "+") { 
+      $(this).text("-"); 
+  } else { 
+      $(this).text("+"); 
+  }; 
 });
 
 $( "#more3" ).click(function() {
   $( "#collapse3" ).toggle( "slow", function() {
     // Animation complete.
   });
+  if ($(this).text() == "+") { 
+      $(this).text("-"); 
+  } else { 
+      $(this).text("+"); 
+  }; 
 });
 
 $( "#more4" ).click(function() {
   $( "#collapse4" ).toggle( "slow", function() {
     // Animation complete.
   });
+  if ($(this).text() == "+") { 
+      $(this).text("-"); 
+  } else { 
+      $(this).text("+"); 
+  }; 
 });
 
 $( "#more5" ).click(function() {
   $( "#collapse5" ).toggle( "slow", function() {
     // Animation complete.
   });
+  if ($(this).text() == "+") { 
+      $(this).text("-"); 
+  } else { 
+      $(this).text("+"); 
+  }; 
 });
 
 $( "#more6" ).click(function() {
   $( "#collapse6" ).toggle( "slow", function() {
     // Animation complete.
   });
+  if ($(this).text() == "+") { 
+      $(this).text("-"); 
+  } else { 
+      $(this).text("+"); 
+  }; 
 });
 
 $( "#more7" ).click(function() {
   $( "#collapse7" ).toggle( "slow", function() {
     // Animation complete.
   });
+  if ($(this).text() == "+") { 
+      $(this).text("-"); 
+  } else { 
+      $(this).text("+"); 
+  }; 
 });
 
 $( "#more8" ).click(function() {
   $( "#collapse8" ).toggle( "slow", function() {
     // Animation complete.
   });
+  if ($(this).text() == "+") { 
+      $(this).text("-"); 
+  } else { 
+      $(this).text("+"); 
+  }; 
 });
 
 $( "#more9" ).click(function() {
   $( "#collapse9" ).toggle( "slow", function() {
     // Animation complete.
   });
+  if ($(this).text() == "+") { 
+      $(this).text("-"); 
+  } else { 
+      $(this).text("+"); 
+  }; 
+});
+
+
+// Scroll right & left col
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+    $('.left-col').css('left-col', - scroll / 4);
+    $('.right-col').css('right-col', - scroll / 4);
 });
