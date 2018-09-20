@@ -18,7 +18,7 @@
 		<div class="column is-10">
 			<nav class="navbar">
 				<div class="navbar-brand">
-					<a class="navbar-item" href="./index.php">
+					<a class="navbar-item" href="index.php">
 						<img src="img/eye.png" alt="Eye">
 					</a>
 					<!-- Navbar Burger -->
@@ -29,17 +29,15 @@
 				   	</a>
 			   		<div id="navbar" class="navbar-menu">
 			   			<div class="navbar-start">
-			   				<a class="navbar-item" href="index.php">Home</a>
+			   				<a class="navbar-item" href="./index.php">Home</a>
 				   			<div class="navbar-item has-dropdown is-hoverable">
-				   				<a class="navbar-link" href="/documentation/overview/start/"> Projects</a>
+				   				<a class="navbar-link" href="./projects.php"> Projects</a>
 	        				<div class="navbar-dropdown is-boxed">
-				          		<a class="navbar-item" href="/documentation/overview/start/">Overview</a>
+				          		<a class="navbar-item" href="./projects.php">Overview</a>
 				          	<hr class="navbar-divider">
-					          <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">Modifiers</a>
-					          <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">Columns</a>
-					          <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
-					            Elements
-					          </a>
+					          <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">Bootstrap</a>
+					          <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">Hackathon</a>
+					          <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">React</a>
 	        				</div>
 	      					</div>
     					</div>
@@ -55,7 +53,7 @@
 					            		</a>
 					          		</p>
 					          		<p class="control">
-						            	<a class="button is-primary" href="img/CV_Web.pdf">
+						            	<a class="button is-primary" href="img/cv_charlottetusset.pdf">
 						              	<span class="icon">
 						                <i class="fas fa-download"></i>
 						              	</span>

@@ -113,10 +113,11 @@
 							<p>HTML|CSS</p>
 							<p>Sass</p>
 							<p>Frameworks: Bootstrap, Materialize, Bulma</p>
-							<p>Javascript|JQuery</p>
+							<p>Javascript | JQuery</p>
 							<p>PHP</p>
-							<p>React</p>
-							<p>AngularJS</p>
+							<p>React | ReactNative</p>
+							<p>Vue.js</p>
+							<p>Angular</p>
 							<p>Ruby</p>
 							<p>NodeJS</p>
 							<p>Python</p>
@@ -158,14 +159,21 @@
 								<i class="far fa-circle level"></i>	
 							</ul>
 							<ul>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>
+								<i class="fas fa-circle level"></i>
+								<i class="fas fa-circle level"></i>
 								<i class="far fa-circle level"></i>
 								<i class="far fa-circle level"></i>
 								<i class="far fa-circle level"></i>	
 							</ul>
 							<ul>
+								<i class="fas fa-circle level"></i>
+								<i class="fas fa-circle level"></i>
 								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>
+								<i class="far fa-circle level"></i>	
+							</ul>
+							<ul>
+								<i class="fas fa-circle level"></i>
 								<i class="far fa-circle level"></i>
 								<i class="far fa-circle level"></i>
 								<i class="far fa-circle level"></i>
