@@ -69,105 +69,40 @@
 		</div>
 		<hr>
 		<div>
-			<h2 class="title is-2 has-text-danger">skills</h2>
-					<div class="columns container-perso">
-						<div class="column is-6 info">
-							<p>HTML|CSS</p>
-							<p>Sass</p>
-							<p>Frameworks: Bootstrap, Materialize, Bulma</p>
-							<p>Javascript | JQuery</p>
-							<p>PHP</p>
-							<p>React | ReactNative</p>
-							<p>Vue.js</p>
-							<p>Angular</p>
-							<p>Ruby</p>
-							<p>NodeJS</p>
-							<p>Python</p>
-						</div>
-						<div class="column is-6 container-level">
-							<ul>
-								<i class="fas fa-circle level"></i>
-								<i class="fas fa-circle level"></i>
-								<i class="fas fa-circle level"></i>
-								<i class="fas fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-							</ul>
-							<ul>
-								<i class="fas fa-circle level"></i>
-								<i class="fas fa-circle level"></i>
-								<i class="fas fa-circle level"></i>
-								<i class="fas fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-							</ul>
-							<ul>
-								<i class="fas fa-circle level"></i>
-								<i class="fas fa-circle level"></i>
-								<i class="fas fa-circle level"></i>
-								<i class="fas fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-							</ul>
-							<ul>
-								<i class="fas fa-circle level"></i>
-								<i class="fas fa-circle level"></i>
-								<i class="fas fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>	
-							</ul>
-							<ul>
-								<i class="fas fa-circle level"></i>
-								<i class="fas fa-circle level"></i>
-								<i class="fas fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>	
-							</ul>
-							<ul>
-								<i class="fas fa-circle level"></i>
-								<i class="fas fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>	
-							</ul>
-							<ul>
-								<i class="fas fa-circle level"></i>
-								<i class="fas fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>	
-							</ul>
-							<ul>
-								<i class="fas fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>	
-							</ul>
-							<ul>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>	
-							</ul>
-							<ul>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>	
-							</ul>
-							<ul>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>
-								<i class="far fa-circle level"></i>	
-							</ul>
-						</div>
-					</div>
+		<h2 class="title is-2 has-text-danger" id="skills">skills</h2>
+			<div class="columns container-perso">
+				<div class="column is-6 info">
+					<p>HTML <i class="fab fa-html5"></i> </p>
+					<p>CSS <i class="fab fa-css3-alt"></i> | Sass <i class="fab fa-sass"></i> </p>
+					<p>Frameworks: Bootstrap, Materialize, Bulma</p>
+					<p>Javascript <i class="fab fa-js"></i> | JQuery</p>
+					<p>React <i class="fab fa-react"></i> | ReactNative</p>
+					<p>Vuejs <i class="fab fa-vuejs"></i></p>
+					<p>Angular <i class="fab fa-angular"></i></p>
+					<p>PHP <i class="fab fa-php"></i></p>
+					<p>Ruby <i class="fas fa-gem"></i></p>
+					<p>NodeJS <i class="fab fa-node"></i></p>
+					<p>Python <i class="fab fa-python"></i></p>
+				</div>
+				<div class="column is-6 container-level">
+					<progress class="progress is-dark" value="80" max="100"></progress>
+					<progress class="progress is-dark" value="80" max="100"></progress>
+					<progress class="progress is-dark" value="80" max="100"></progress>
+					<progress class="progress is-dark" value="70" max="100"></progress>
+					<progress class="progress is-dark" value="60" max="100"></progress>
+					<progress class="progress is-dark" value="30" max="100"></progress>
+					<progress class="progress is-dark" value="30" max="100"></progress>
+					<progress class="progress is-dark" value="60" max="100"></progress>
+					<progress class="progress is-dark" value="10" max="100"></progress>
+					<progress class="progress is-dark" value="10" max="100"></progress>
+					<progress class="progress is-dark" value="10" max="100"></progress>
+				</div>
+			</div>
 		</div>
 		<hr>
-		<div class="experience" id="experience">
-			<!-- <h1 class="title is-1">Timeline</h1> -->
+		<h2 class="title is-2 has-text-danger" id="experience">experience</h2>
+		<div class="experience">
+		  <p class="is-size-5 has-text-weight-normal">From studies to professional experience, I have always tried to do things with passion and curiosity.</p>
 			<div class="timeline is-centered">
 			  <header class="timeline-header">
 			    <span class="tag is-medium is-danger">2018</span>
@@ -301,6 +236,7 @@
 	  		<p class="menu-label">Menu</p>
 	  		<ul class="menu-list">
 	  			<li><a href="#intro"><i class="fas fa-info-circle"></i> About me</a></li>
+	  			<li><a href="#skills"><i class="fas fa-code"></i></i> Skills</a></li>
 	  			<li><a href="#experience"><i class="fas fa-cogs"></i> Experience</a></li>
     			<li><a href="#studies"><i class="fas fa-graduation-cap"></i> Studies</a></li>
 	  		</ul>
