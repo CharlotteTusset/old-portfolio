@@ -13,9 +13,9 @@
 	</head>
 
 <body>
+	<div class="triangle"></div>
 	<div class="columns">
-		<div class="column is-2"></div>
-		<div class="column is-10">
+		<div class="column is-8 is-offset-one-fifth">
 			<nav class="navbar">
 				<div class="navbar-brand">
 					<a class="navbar-item" href="index.php">
@@ -35,9 +35,13 @@
 	        				<div class="navbar-dropdown is-boxed">
 				          		<a class="navbar-item" href="./projects.php">Overview</a>
 				          	<hr class="navbar-divider">
-					          <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">Bootstrap</a>
-					          <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">Hackathon</a>
-					          <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">React</a>
+					          <a class="navbar-item" href="./projects.php">Ukiyo</a>
+					          <a class="navbar-item" href="./projects.php">DegroofPetercam</a>
+					          <a class="navbar-item" href="./projects.php">Allezciné</a>
+					          <a class="navbar-item" href="./projects.php">Cogip</a>
+					          <a class="navbar-item" href="./projects.php">Chôm'hier</a>
+					          <a class="navbar-item" href="./projects.php">Village n°1</a>
+					          <a class="navbar-item" href="./projects.php">Imacoustic</a>
 	        				</div>
 	      					</div>
     					</div>

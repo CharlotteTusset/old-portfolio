@@ -7,12 +7,19 @@
 	  <div class="column is-2 left-col">
 	  	<img src="img/profilepic.jpg" alt="profilepic" id="profile">
 		<div class="avatar">
-			<p class="is-size-5">Charlotte Tusset</p>
-			<p>Junior Web Developer</p>
+			<p class="is-size-2">Charlotte Tusset</p>
+			<p class="is-size-7 is-uppercase has-text-weight-semibold">Junior Web Developer</p>
+			<p><i class="fas fa-map-pin"></i> Brussels</p>
 			<p>FR | EN | IT | NL</p>
 			<hr>
   			<div class="social">
 				<ul>
+					<li> <a href="mailto:charlotte.tusset@gmail.com?Subject=Hello" target="_top">
+						<span class="icon is-small">
+							<i class="fas fa-at"></i>
+						</span>
+						</a>
+					</li>
 					<li> <a href="https://www.linkedin.com/in/charlottetusset/" target="_blank">
 						<span class="icon is-small">
 							<i class="fab fa-linkedin-in"></i>
@@ -37,12 +44,6 @@
 						</span>
 						</a>
 					</li>
-					<li> <a href="https://www.facebook.com/profile.php?id=1110567677" target="_blank">
-						<span class="icon is-small">
-							<i class="fab fa-facebook-f"></i>
-						</span>
-						</a>
-					</li>
 					<li> <a href="https://www.instagram.com/ctusset/" target="_blank">
 						<span class="icon is-small">
 							<i class="fab fa-instagram"></i>
@@ -57,57 +58,18 @@
 	  <div class="column is-8 center-col">
 		<div class="description">
 		  	<div class="intro" id="intro">
-		  		<h1 class="title is-1">About me</h1>
-				<p><b>Hello, I am Charlotte!</b><p> 
-				<p>I am currently Junior Web Developer at <a href="https://www.becode.org/"><b>BeCode</b></a>. A 6-months bootcamp that will offer me new working opportunities.
+		  		<h1 class="title is-1 has-text-danger">about me</h1>
+				<p class="has-text-weight-semibold is-size-4">Hello, I am Charlotte!<p> 
+				<p class="is-size-5 has-text-weight-normal">I am currently Junior Web Developer at <a href="https://www.becode.org/" target="_blank"><b>BeCode</b></a>. A 6-month bootcamp that will offer me new working opportunities.
 				I am initially graduated with a Bachelor's Degree in Political Sciences and a Master's Degree in European Studies and I gained experience in the european institutions and in a NGO but I didn't feel that this working environment really fulfiled me.
-				<br>In the next few months, I hope I will use my new superpowers to find a proper job in the cultural sector and more specifically in the music industry. I am a curious mind and I have many interests. I am a music lover and could spend my free time going to gigs or digging for new finds (I have eclectic tastes, go check my spotify playlists). Besides, I am passionate about culture and arts. I am a novice photographer and I wish to become a guitar-player and a good painter. I played basketball for 17 years and now I run, swim and bike. I also enjoy long walks in nature.</p>
+				<br>In the next few months, I hope I will use my new superpowers to find a proper job in the cultural sector and more specifically in the music industry. But first, I am lookink for a traineeship in <b>Amsterdam</b>, having a desire to explore a new city.
+				<br>I am a curious mind and I have many interests. I am a music lover and could spend my free time going to gigs or digging for new finds (I have eclectic tastes, go check my spotify playlists). Besides, I am passionate about culture and arts. I am a novice photographer and I wish to become a guitar-player and a good painter. I played basketball for 17 years and now I run, swim and bike. I also enjoy long walks in nature.</p>
 				<hr>
-			</div>
-			<div class="columns container-perso">
-				<div class="column is-6 info">
-					<p>Full name</p>
-					<p>D.O.B</p>
-					<p>Nationality</p>
-					<p>Current city</p>
-					<p>Email</p>
-				</div>
-				<div class="column is-6">
-					<p>Charlotte Tusset</p>
-					<p>04/11/1991</p>
-					<p>Belgian</p>
-					<p>Brussels</p>
-					<p><a href="mailto:charlotte.tusset@gmail.com" target="_top">charlotte.tusset@gmail.com</a></p>	
-				</div>
-				<!-- Uncomment if necessary - PHP mailer required -->
-				<!-- <div class="column is-6">
-					<h2 class="title is-2">contact</h2>
-					<div class="form">
-						<div class="field">
-						  <label class="label">Name</label>
-						  <div class="control">
-						    <input class="input is-small is-primary" type="text" placeholder="e.g Alex Smith">
-						  </div>
-						</div>
-						<div class="field">
-						  <label class="label">Email</label>
-						  <div class="control">
-						    <input class="input is-small is-primary" type="email" placeholder="e.g. alexsmith@gmail.com">
-						  </div>
-						</div>
-						<div class="field">
-						  <label class="label">Text</label>
-						  <div class="control">
-						    <input class="input is-small is-primary" type="text" placeholder="e.g. Hello">
-						  </div>
-						</div>
-					</div>				
-				</div> -->
 			</div>
 		</div>
 		<hr>
 		<div>
-			<h2 class="title is-2">skills</h2>
+			<h2 class="title is-2 has-text-danger">skills</h2>
 					<div class="columns container-perso">
 						<div class="column is-6 info">
 							<p>HTML|CSS</p>

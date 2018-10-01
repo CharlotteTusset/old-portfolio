@@ -9,8 +9,8 @@ Link:
 ## Made with
 
 * HTML/CSS
-	* Sass
-	* [Bulma](https://bulma.io/) framework
+	* Sass/SCSS
+	* Framework:[Bulma](https://bulma.io/)
 * PHP
 * JS + Jquery
 
@@ -19,7 +19,7 @@ Link:
 ## Objectives
 
 * Improve my CV website
-* Realise a showcase for potential employers
+* Realise a portfolio for potential employers
 * Confirm my knowledge
 
 ---
