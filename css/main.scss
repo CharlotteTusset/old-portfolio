@@ -1,7 +1,6 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Kreon|Montserrat|Open+Sans|Playfair+Display+SC|Sorts+Mill+Goudy');
+@import url('https://fonts.googleapis.com/css?family=Kreon|Montserrat|Open+Sans|Playfair+Display+SC|Sorts+Mill+Goudy|Bad+Script');
 @import "../node_modules/bulma/sass/utilities/initial-variables";
-
 
 $green: #B2CCC1;
 $dark-green: #093321;
@@ -14,6 +13,20 @@ $dark: $dark-green;
 
 @import "../node_modules/bulma/bulma";
 @import '../node_modules/bulma-timeline/dist/css/bulma-timeline.sass';
+
+/*Mediaqueries*/
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) and (max-width: 1023px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}
 
 body {
 	width: 100%;
@@ -33,18 +46,34 @@ body {
 }
 
 .navbar {
+	margin-left: 20px;
 	background-color: transparent;
 	z-index: 10;
+	.navbar-burger {color: $danger;}
 	.navbar-item {
 		&:hover {
 			color: $orange;
 		}
-	.navbar-burger {color: $orange;}
-	.navbar-link:hover {color: $orange;}	
+	.navbar-link:hover {color: $danger;}	
 	}
 }
 
 .left-col {
+	@include for-phone-only {
+	    	position: relative;
+	    	z-index: 2;
+	    	margin-left: 0px;
+	    	max-height: 700px;
+	  	}
+	@include for-tablet-portrait-up {
+	    	position: relative;
+	    	z-index: 2;
+	    	margin-left: 240px;
+	    	margin-right: 240px;
+	  	}
+	@include for-big-desktop-up {
+	    	max-height: 700px;
+	  	}
 	position: sticky;
 	top:0;
 	margin-left: 30px;
@@ -61,24 +90,31 @@ body {
 		color: $dark-green;
 	}
 	ul {
+		display: flex;
+		justify-content: space-around;
 		a {
 			&:link {color: $dark-green;}
 			&:hover {color: $darkorange;}
 			&:visited {color: $orange;}
 		}
-		display: flex;
-		justify-content: space-around;
 	}
 }
 
 .right-col {
 	position: sticky;
 	z-index: 3;
+	padding-top: 0px;
 	top:0;
 	height: 100%;
 	aside {
 		a {color: $orange;}
 		&:hover {color: $orange;}
+	}
+	@include for-phone-only {
+		display: none;    	
+	}
+	@include for-tablet-portrait-up {
+	    display: none; 
 	}
 }
 
@@ -105,6 +141,10 @@ body {
 		padding-right: 25px;
 	}
 	.container-perso {
+		@include for-tablet-portrait-up {
+		    	display: flex;
+		    	flex-direction: row;
+		  	}
 		.info {
 			font-weight: bold;
 		}
@@ -113,60 +153,47 @@ body {
 			line-height: 30pt;
 		}
 		.container-level {
+			@include for-phone-only {
+		    	display:none;
+		  	}
 			padding-top: 30px;
 			padding-right: 30px;	
 		}
 	}
 	.experience {
-		p {
-			padding-left: 30px;
-			line-height: 30pt;
-		}
 		padding-left: 10px;
 		padding-right: 30px;
-	}
-}
-
-/*Page projects*/
-/*Animation*/
-.typewriter {
-	margin-top: 120px;
-    h1 {
-	  letter-spacing: .10em;
-	  margin: 0 auto;
-	  overflow: hidden;
-	  white-space: nowrap;
-	  border-right: .10em solid $orange;
-	  animation: typing 10.5s steps(30, end),
-	    blinking-cursor .5s step-end;
-	}
-}
-/* The typing effect */
-@keyframes typing {
-  from { width: 0% }
-  to { width: 100% }
-}
-/* The typewriter cursor effect */
-@keyframes blinking-cursor {
-  from, to { border-color: transparent }
-  50% { border-color: $orange; }
-}
-
-.p_container {
-	padding-top: 150px;
-	margin-left: 20px;
-	.p_bootstrap {
-		img {
-			width: 75%;
-  			object-fit: cover;
-		}
-	}
-	.p_hackathon {
-		img {
-			width: 75%;
-  			object-fit: cover;
+		.timeline{
+			margin-left: 20px;
+			.fa-ellipsis-v {color: white;}
 		}
 	}
 }
 
-footer {margin-left: 15px;}
+/*Page - projects*/
+.project_container {
+	margin-left: 30px;
+	padding-top: 15px;
+	background-color: white;
+	z-index: 10;
+	.proj-summary {
+		padding-top: 20px;
+		padding-left: 30px;
+	}
+	.btn_container {
+		justify-content: center;
+		a {margin: 2px;}
+	}
+	.gallery{
+		margin-top: 20px;
+		flex-wrap: wrap;
+	}
+}
+
+/*Footer*/
+.footer {
+	margin-left: 15px;
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+}
+

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Kreon|Montserrat|Open+Sans|Playfair+Display+SC|Sorts+Mill+Goudy");
+@import url("https://fonts.googleapis.com/css?family=Kreon|Montserrat|Open+Sans|Playfair+Display+SC|Sorts+Mill+Goudy|Bad+Script");
 /*! bulma.io v0.6.2 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -6855,6 +6855,7 @@ label.panel-block {
         padding: 1em 2em 0 0;
         text-align: right; }
 
+/*Mediaqueries*/
 body {
   width: 100%;
   background-color: #F5F5F5;
@@ -6871,11 +6872,12 @@ body {
   border-color: transparent #093321 transparent transparent; }
 
 .navbar {
+  margin-left: 20px;
   background-color: transparent;
   z-index: 10; }
-  .navbar .navbar-item:hover {
+  .navbar .navbar-burger {
     color: #FF8585; }
-  .navbar .navbar-item .navbar-burger {
+  .navbar .navbar-item:hover {
     color: #FF8585; }
   .navbar .navbar-item .navbar-link:hover {
     color: #FF8585; }
@@ -6886,6 +6888,21 @@ body {
   margin-left: 30px;
   background-color: #B2CCC1;
   max-height: 500px; }
+  @media (max-width: 599px) {
+    .left-col {
+      position: relative;
+      z-index: 2;
+      margin-left: 0px;
+      max-height: 700px; } }
+  @media (min-width: 600px) and (max-width: 1023px) {
+    .left-col {
+      position: relative;
+      z-index: 2;
+      margin-left: 240px;
+      margin-right: 240px; } }
+  @media (min-width: 1800px) {
+    .left-col {
+      max-height: 700px; } }
   .left-col img {
     border-radius: 50%;
     max-width: 80%;
@@ -6907,12 +6924,19 @@ body {
 .right-col {
   position: sticky;
   z-index: 3;
+  padding-top: 0px;
   top: 0;
   height: 100%; }
   .right-col aside a {
     color: #FF8585; }
   .right-col aside:hover {
     color: #FF8585; }
+  @media (max-width: 599px) {
+    .right-col {
+      display: none; } }
+  @media (min-width: 600px) and (max-width: 1023px) {
+    .right-col {
+      display: none; } }
 
 .center-col {
   background-color: white;
@@ -6932,6 +6956,10 @@ body {
     text-align: justify; }
   .center-col .form div {
     padding-right: 25px; }
+  @media (min-width: 600px) and (max-width: 1023px) {
+    .center-col .container-perso {
+      display: flex;
+      flex-direction: row; } }
   .center-col .container-perso .info {
     font-weight: bold; }
   .center-col .container-perso p {
@@ -6940,48 +6968,38 @@ body {
   .center-col .container-perso .container-level {
     padding-top: 30px;
     padding-right: 30px; }
+    @media (max-width: 599px) {
+      .center-col .container-perso .container-level {
+        display: none; } }
   .center-col .experience {
     padding-left: 10px;
     padding-right: 30px; }
-    .center-col .experience p {
-      padding-left: 30px;
-      line-height: 30pt; }
+    .center-col .experience .timeline {
+      margin-left: 20px; }
+      .center-col .experience .timeline .fa-ellipsis-v {
+        color: white; }
 
-/*Page projects*/
-/*Animation*/
-.typewriter {
-  margin-top: 120px; }
-  .typewriter h1 {
-    letter-spacing: .10em;
-    margin: 0 auto;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 0.1em solid #FF8585;
-    animation: typing 10.5s steps(30, end), blinking-cursor 0.5s step-end; }
+/*Page - projects*/
+.project_container {
+  margin-left: 30px;
+  padding-top: 15px;
+  background-color: white;
+  z-index: 10; }
+  .project_container .proj-summary {
+    padding-top: 20px;
+    padding-left: 30px; }
+  .project_container .btn_container {
+    justify-content: center; }
+    .project_container .btn_container a {
+      margin: 2px; }
+  .project_container .gallery {
+    margin-top: 20px;
+    flex-wrap: wrap; }
 
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0%; }
-  to {
-    width: 100%; } }
-/* The typewriter cursor effect */
-@keyframes blinking-cursor {
-  from, to {
-    border-color: transparent; }
-  50% {
-    border-color: #FF8585; } }
-.p_container {
-  padding-top: 150px;
-  margin-left: 20px; }
-  .p_container .p_bootstrap img {
-    width: 75%;
-    object-fit: cover; }
-  .p_container .p_hackathon img {
-    width: 75%;
-    object-fit: cover; }
-
-footer {
-  margin-left: 15px; }
+/*Footer*/
+.footer {
+  margin-left: 15px;
+  padding-top: 3rem;
+  padding-bottom: 1rem; }
 
 /*# sourceMappingURL=main.css.map */

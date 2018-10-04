@@ -15,7 +15,7 @@
 <body>
 	<div class="triangle"></div>
 	<div class="columns">
-		<div class="column is-8 is-offset-one-fifth">
+		<div class="column is-8">
 			<nav class="navbar">
 				<div class="navbar-brand">
 					<a class="navbar-item" href="index.php">
@@ -30,25 +30,12 @@
 			   		<div id="navbar" class="navbar-menu">
 			   			<div class="navbar-start">
 			   				<a class="navbar-item" href="./index.php">Home</a>
-				   			<div class="navbar-item has-dropdown is-hoverable">
-				   				<a class="navbar-link" href="./projects.php"> Projects</a>
-	        				<div class="navbar-dropdown is-boxed">
-				          		<a class="navbar-item" href="./projects.php">Overview</a>
-				          	<hr class="navbar-divider">
-					          <a class="navbar-item" href="./projects.php">Ukiyo</a>
-					          <a class="navbar-item" href="./projects.php">DegroofPetercam</a>
-					          <a class="navbar-item" href="./projects.php">Allezciné</a>
-					          <a class="navbar-item" href="./projects.php">Cogip</a>
-					          <a class="navbar-item" href="./projects.php">Chôm'hier</a>
-					          <a class="navbar-item" href="./projects.php">Village n°1</a>
-					          <a class="navbar-item" href="./projects.php">Imacoustic</a>
-	        				</div>
-	      					</div>
+				   			<a class="navbar-item" href="./projects.php">Projects</a>
     					</div>
 	    				<div class="navbar-end">
 				   			<div class="navbar-item">
 				        		<div class="field is-grouped">
-					          		<p class="control">
+					          		<p class="control is-paddingless">
 					            		<a class="bd-tw-button button" target="_blank" href="https://github.com/CharlotteTusset">
 					              		<span class="icon">
 					                	<i class="fab fa-github"></i>

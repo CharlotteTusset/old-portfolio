@@ -1,72 +1,196 @@
 <?php include 'partials/header.php' ?>
 
 <main>
-	<div class="typewriter">
-		<h1 class="title has-text-centered">Under construction . . .</h1>
-	</div>
-	<div class="p_container">
-		<div class="p_bootstrap">
-			<h2 class="title">Bootstrap - Restaurant</h2>
-			<h3 class="title"><a href="https://charlottetusset.github.io/BootstrapWebsite/index.html">Website</a></h3>
-			<p>Where? Be Code</p>
-			<p>What? Create your first Bootstrap website for a restaurant</p>
-			<p>Who? Solo project</p>
-			<p>When? May 2018</p>
-			<img src="img/bootstrap.png" alt="Bootstrap Website">
+	<div class="columns is-mobile">
+		<div class="column is-9 project_container">
+			
+			
+			
+
+
+
+
+
+			<div class="project" id="ukiyo">
+				<span class="title is-uppercase has-text-danger">Ukiyo</span>
+				<span class="is-size-5 has-text-primary is-italic">- A restaurant website made with Bootstrap</span>
+				<div class="p_bootstrap proj-summary">
+					<div class="columns is-mobile">
+						<div class="column is-1 has-text-weight-semibold">
+							<p>Where?</p>
+							<p>What?</p>
+							<p>Who?</p>
+							<p>When?</p>
+						</div>
+						<div class="column is-5">
+							<p>During my training at Be Code</p>
+							<p>Create a first responsive website for a restaurant</p>
+							<p>Solo project</p>
+							<p>May 2018</p>
+						</div>
+					</div>
+					<div class="btn_container is-flex">
+						<a class="button is-dark is-small is-outlined" href="https://charlottetusset.github.io/BootstrapWebsite/index.html" target="_blank">
+						<span class="icon is-medium"><i class="fas fa-globe"></i></span><span>Website</span></a>
+						<a class="button is-dark is-small is-outlined" href="https://github.com/CharlotteTusset/BootstrapWebsite" target="_blank">
+						<span class="icon is-medium"><i class="fab fa-github"></i></span><span>Github</span></a>
+					</div>
+					<div class="gallery is-flex">
+					</div>
+				</div>
+			</div>
+			<div class="project" id="dpapp">
+				<span class="title is-uppercase has-text-danger">Degroof Petercam</span>
+				<span class="is-size-5 has-text-primary is-italic">- A Missions Manager App made with React Native</span>
+				<div class="p_reactnative proj-summary">
+					<div class="columns is-mobile">
+						<div class="column is-1 has-text-weight-semibold">
+							<p>Where?</p>
+							<p>What?</p>
+							<p>Who?</p>
+							<p>When?</p>
+						</div>
+						<div class="column is-10">
+							<p>During my training at Be Code for Degroof Petercam Foundation</p>
+							<p>A 3-day challenge to create an app for managing employees missions (volunteering, courses, projects) at DP</p>
+							<p>Team of 4</p>
+							<p>24-27 September 2018</p>
+						</div>
+					</div>
+					<div class="btn_container is-flex">
+						<a class="button is-dark is-small is-outlined" href="img/dpapp/dpapp.apk">
+						<span class="icon is-medium"><i class="fab fa-android"></i></span><span>App for Android</span></a>
+						<a class="button is-dark is-small is-outlined" href="https://github.com/CharlotteTusset/Projet-Degroof-Petercam" target="_blank">
+						<span class="icon is-medium"><i class="fab fa-github"></i></span><span>Github</span></a>
+					</div>
+					<div class="gallery"></div>
+				</div>
+			</div>
+			<div class="project" id="allezcine">
+				<span class="title is-uppercase has-text-danger">Allezciné</span>
+				<span class="is-size-5 has-text-primary is-italic">- A movies platform inspired by Allociné</span>
+				<div class="p_allezcine proj-summary">
+					<div class="columns is-mobile">
+						<div class="column is-1 has-text-weight-semibold">
+							<p>Where?</p>
+							<p>What?</p>
+							<p>Who?</p>
+							<p>When?</p>
+						</div>
+						<div class="column is-10">
+							<p>During my training at Be Code</p>
+							<p>Create a Onepage in 10 days inspired by <a href="http://www.allocine.fr/">Allociné</a> based on a layout.</p>
+							<p>Team of two</p>
+							<p>18-30 June 2018</p>
+						</div>
+					</div>
+					<div class="btn_container is-flex">
+						<a class="button is-dark is-small is-outlined" href="https://charlottetusset.github.io/frontend-AllezCine/" target="_blank">
+						<span class="icon is-medium"><i class="fas fa-globe"></i></span><span>Website</span></a>
+						<a class="button is-dark is-small is-outlined" href="https://github.com/CharlotteTusset/frontend-AllezCine" target="_blank">
+						<span class="icon is-medium"><i class="fab fa-github"></i></span><span>Github</span></a>
+					</div>
+					<div class="gallery"></div>
+				</div>
+			</div>
+			<div class="project" id="cogip">
+					<span class="title is-uppercase has-text-danger">COGIP</span>
+					<span class="is-size-5 has-text-primary is-italic">- An accounting platform for a fictional entreprise</span>
+					<div class="p_cogip proj-summary">
+						<div class="columns">
+							<div class="column is-1 has-text-weight-semibold">
+								<p>Where?</p>
+								<p>What?</p>
+								<p>Who?</p>
+								<p>When?</p>
+							</div>
+							<div class="column is-10">
+								<p>During my training at Be Code</p>
+								<p>Create an app for Jean-Christian Ranu, accountant at COGIP by using PHP and SQL.</p>
+								<p>Team of three</p>
+								<p>28 August - 04 September 2018</p>
+							</div>
+						</div>
+						<div class="btn_container is-flex">
+							<a class="button is-dark is-small is-outlined" href="https://cogip-app.000webhostapp.com/" target="_blank" title="Login: Murielle Pwd: Perrache">
+							<span class="icon is-medium"><i class="fas fa-globe"></i></span><span>Website</span></a>
+							<a class="button is-dark is-small is-outlined" href="https://github.com/CharlotteTusset/COGIP-app" target="_blank">
+							<span class="icon is-medium"><i class="fab fa-github"></i></span><span>Github</span></a>
+						</div>
+						<div class="gallery"></div>
+					</div>
+			</div>
+			<div class="project" id="chomhier">
+				<span class="title is-uppercase has-text-danger">Chôm'hier</span>
+				<span class="is-size-5 has-text-primary is-italic">- A PHP multipage for a belgian association.</span>
+				<div class="p_chomhier proj-summary">
+					<div class="columns">
+						<div class="column is-1 has-text-weight-semibold">
+							<p>Where?</p>
+							<p>What?</p>
+							<p>Who?</p>
+							<p>When?</p>
+						</div>
+						<div class="column is-10">
+							<p>During my training at Be Code</p>
+							<p>Create a multipage with PHP in 7 days and learn about mail management (PHP mailer)</p>
+							<p>Team of two</p>
+							<p>30 July - 01 August 2018</p>
+						</div>
+					</div>
+					<div class="btn_container is-flex">
+						<a class="button is-dark is-small is-outlined" href="https://lachomhieraid.herokuapp.com/index.php" target="_blank">
+						<span class="icon is-medium"><i class="fas fa-globe"></i></span><span>Website</span></a>
+						<a class="button is-dark is-small is-outlined" href="https://github.com/CharlotteTusset/multipage-website-in-php" target="_blank">
+						<span class="icon is-medium"><i class="fab fa-github"></i></span><span>Github</span></a>
+					</div>
+					<div class="gallery"></div>
+				</div>
+			</div>
+			<div class="project" id="village">
+				<span class="title is-uppercase has-text-danger">Village n°1</span>
+				<span class="is-size-5 has-text-primary is-italic">- A onepage for a belgian association.</span>
+				<div class="p_village proj-summary">
+					<div class="columns">
+						<div class="column is-1 has-text-weight-semibold">
+							<p>Where?</p>
+							<p>What?</p>
+							<p>Who?</p>
+							<p>When?</p>
+						</div>
+						<div class="column is-10">
+							<p>During my training at Be Code</p>
+							<p>6 hours challenge to create a onepage for a belgian association</p>
+							<p>Team of three</p>
+							<p>07 June 2018</p>
+						</div>
+					</div>
+					<div class="btn_container is-flex">
+						<a class="button is-dark is-small is-outlined" href="https://bare-guillaume.github.io/challenge-guerilla/" target="_blank">
+						<span class="icon is-medium"><i class="fas fa-globe"></i></span><span>Website</span></a>
+						<a class="button is-dark is-small is-outlined" href="https://github.com/CharlotteTusset/challenge-guerilla" target="_blank">
+						<span class="icon is-medium"><i class="fab fa-github"></i></span><span>Github</span></a>
+					</div>
+					<div class="gallery"></div>
+				</div>
+			</div>
 		</div>
-		<div class="p_reactnative">
-			<h2 class="title">Degroof Petercam - Missions Manager</h2>
-			<p>Where? Be Code for Degroof Petercam</p>
-			<p>What? 3-day challenge to create an app for managing employees missions (volunteering, courses, projects) at Degroof Petercam</p>
-			<p>Who? Team of 4</p>
-			<p>When? 24-27 September 2018</p>
-			<img src="img/bootstrap.png" alt="DP Application">
-		</div>
-		<div class="p_allezcine">
-			<h2 class="title">Allezciné</h2>
-			<h3 class="title"><a href="https://charlottetusset.github.io/frontend-AllezCine">Website</a></h3>
-			<p>Where? Be Code</p>
-			<p>What? Create a Onepage in 10 days inspired by <a href="http://www.allocine.fr/">Allociné</a>based on a layout.</p>
-			<p>Who? Team of two</p>
-			<p>When? 18-30 June 2018</p>
-			<img src="img/imacoustic.png" alt="Allezciné">
-		</div>
-		<div class="p_cogip">
-			<h2 class="title">COGIP</h2>
-			<h3 class="title"><a href="https://cogip-app.000webhostapp.com/?page=dashboard">Website</a></h3>
-			<p>Where? Be Code</p>
-			<p>What? Use of PHP and SQL: create an app for Jean-Christian Ranu, accountant at COGIP.</p>
-			<p>Who? Team of three</p>
-			<p>When? 28 August - 04 September 2018</p>
-			<img src="img/imacoustic.png" alt="Allezciné">
-		</div>
-		<div class="p_chomhier">
-			<h2 class="title">Chôm'hier</h2>
-			<h3 class="title"><a href="https://lachomhieraid.herokuapp.com/index.php">Website</a></h3>
-			<p>Where? Be Code</p>
-			<p>What? Create a multipage with PHP in 7 days and deploy it on Heroku.</p>
-			<p>Who? Team of two</p>
-			<p>When? 30 July - 01 August 2018</p>
-			<img src="img/imacoustic.png" alt="Chomhier">
-		</div>
-		<div class="p_village">
-			<h2 class="title">Village n°1</h2>
-			<h3 class="title"><a href="https://bare-guillaume.github.io/challenge-guerilla/">Website</a></h3>
-			<p>Where? Be Code</p>
-			<p>What? Create a Onepage in 6 hours for a belgian association</p>
-			<p>Who? Team of three</p>
-			<p>When? 07 June 2018</p>
-			<img src="img/imacoustic.png" alt="Village N°1">
-		</div>
-		<div class="p_hackathon">
-			<h2 class="title">Imacoustic</h2>
-			<h3 class="title">Unpublished</h3>
-			<p>Where? Wallifornia MusicTech Hackathon</p>
-			<p>What? 24-hour challenge to innovate for the music industry. We created an app/website that generates music based on an artist's image</p>
-			<p>Who? Be Code team of 7 newbies</p>
-			<p>When? 4-5 July 2018</p>
-			<a href="https://medium.com/becode/my-first-hackathon-a0670237ef70">Article I wrote</a>
-			<img src="img/imacoustic.png" alt="Imacoustic">
+
+		<!-- Menu right -->
+		<div class="column is-2 right-col">
+			<aside class="menu">
+			  <p class="menu-label">
+			    Projects
+			  </p>
+			  <ul class="menu-list">
+			    <li><a href="#ukiyo">Ukiyo</a></li>
+			    <li><a href="#dpapp">Degroof Petercam</a></li>
+			    <li><a href="#allezcine">Allezciné</a></li>
+			    <li><a href="#cogip">COGIP</a></li>
+			    <li><a href="#chomhier">Chôm'hier</a></li>
+			    <li><a href="#village">Village n°1</a></li>
+			  </ul>
+			 </aside>
 		</div>
 	</div>
 </main>

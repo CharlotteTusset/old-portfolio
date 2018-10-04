@@ -136,3 +136,4 @@ $(window).scroll(function (event) {
     $('.left-col').css('left-col', - scroll / 4);
     $('.right-col').css('right-col', - scroll / 4);
 });
+

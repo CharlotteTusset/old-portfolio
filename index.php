@@ -7,7 +7,7 @@
 	  <div class="column is-2 left-col">
 	  	<img src="img/profilepic.jpg" alt="profilepic" id="profile">
 		<div class="avatar">
-			<p class="is-size-2">Charlotte Tusset</p>
+			<p class="is-size-3">Charlotte Tusset</p>
 			<p class="is-size-7 is-uppercase has-text-weight-semibold">Junior Web Developer</p>
 			<p><i class="fas fa-map-pin"></i> Brussels</p>
 			<p>FR | EN | IT | NL</p>
@@ -67,7 +67,6 @@
 				<hr>
 			</div>
 		</div>
-		<hr>
 		<div>
 		<h2 class="title is-2 has-text-danger" id="skills">skills</h2>
 			<div class="columns container-perso">
@@ -102,129 +101,128 @@
 		<hr>
 		<h2 class="title is-2 has-text-danger" id="experience">experience</h2>
 		<div class="experience">
-		  <p class="is-size-5 has-text-weight-normal">From studies to professional experience, I have always tried to do things with passion and curiosity.</p>
-			<div class="timeline is-centered">
+			<div class="timeline">
 			  <header class="timeline-header">
-			    <span class="tag is-medium is-danger">2018</span>
+			    <span class="tag is-medium is-dark">2018</span>
 			  </header>
-			  <div class="timeline-item is-danger">
-			    <div class="timeline-marker is-danger"></div>
+			  <div class="timeline-item is-dark">
+			    <div class="timeline-marker is-dark"></div>
 			    <div class="timeline-content">
-			      <p class="heading">May - November 2018</p>
-			      <p class="has-text-weight-bold">Junior Web Developer</p>
-			      <p>Be Code</p>
+			      <p class="heading has-text-primary has-text-primary">May - November 2018</p>
+			      <p class="has-text-weight-bold is-size-5">Junior Web Developer</p>
+			      <p class="is-size-5 has-text-dark">Be Code</p>
 				  <button type="button" class="button is-small is-rounded" id="more">+</button>
 				  <p class="collapse has-text-justified" id="collapse" style="display:none">
-				  A 6-month coding bootcamp where I am developing my coding skills: HTML, CSS, JS, Jquery, PHP etc. And also soft skills through workshops and presentations (Algorave, Creative Commons, HTLM5). I also attended a Hackathon on Music Tech. </p>
+				  I started this 6-month coding bootcamp because I wanted to give new chances to my professionnal future. I am developing strong coding skills: HTML, CSS, JS, Jquery, PHP, React, SQL. But also soft skills through workshops, presentations (Algorave, Creative Commons, Vuejs, HTLM). I also attended my first Hackathon on Music Tech. Besides, I was Scrum Master for several projects and for a real client project ('Emergeences', website to meditate).</p>
 			    </div>
 			  </div>
 			  <header class="timeline-header">
-			    <span class="tag is-danger">2017</span>
+			    <span class="tag is-dark">2017</span>
 			  </header>
-			  <div class="timeline-item is-danger">
-			  	<div class="timeline-marker is-danger"></div>
+			  <div class="timeline-item is-dark">
+			  	<div class="timeline-marker is-dark"></div>
 			    <div class="timeline-content">
-			      <p class="heading">September - December 2017</p>
-			      <p class="has-text-weight-bold">Project Assistant</p>
-			      <p>MR Engineering</p>
+			      <p class="heading has-text-primary">September - December 2017</p>
+			      <p class="has-text-weight-bold is-size-5">Project Assistant</p>
+			      <p class="is-size-5 has-text-dark">MR Engineering</p>
 			      <button type="button" class="button is-small is-rounded" id="more2">+</button>
 				  <p class="collapse has-text-justified" id="collapse2" style="display:none">
-				  Creating Excel databases for the implementation of the programme COSWIN (CMMS). Analysing data and resolving inconsistencies and I quickly adapted to a new working environment (engineering).</p>
+				  I mainly created Excel databases for the implementation of the programme COSWIN (CMMS). I analysed data and resolved inconsistencies and I quickly adapted to a new working environment (engineering). That is where I discovered my interest for pragmatism. I started to code on Codecademy during this job.</p>
 			    </div>
 			  </div>
-			  <div class="timeline-item is-danger">
-			  	<div class="timeline-marker is-danger"></div>
+			  <div class="timeline-item is-dark">
+			  	<div class="timeline-marker is-dark"></div>
 			    <div class="timeline-content">
-			      <p class="heading">February - July 2017</p>
-			      <p class="has-text-weight-bold">Francis Vals Trainee</p>
-			      <p>The progressive Alliance of the Socialists and Democrats of the European Parliament</p>
+			      <p class="heading has-text-primary">February - July 2017</p>
+			      <p class="has-text-weight-bold is-size-5">Francis Vals Trainee</p>
+			      <p class="is-size-5 has-text-dark">The progressive Alliance of the Socialists and Democrats of the European Parliament</p>
 			      <button type="button" class="button is-small is-rounded" id="more3">+</button>
 				  <p class="collapse has-text-justified" id="collapse3" style="display:none">
-				  Drafting Committee meeting minutes and summarising them for future use. Organising two conferences for the CULT Committee with MEPs, CSO, experts and citizens. Advising the Coordinator of the Culture & Education Committee on ongoing reports. Doing research on specific subjects (e.g. international cultural relations, copyright, skills agenda).</p>
+				  I was part of the Culture and Education Committee for the S&D Group in the European Parliament. Interested in the subject, I was already concerned of the digitalisation of the society and the importance to gain some coding skills at school. My main tasks were drafting Committee meeting minutes and summarising them for future use. Organising two conferences with MEPs, CSO, experts and citizens. Advising the Coordinator of the Committee on ongoing reports. Doing research on specific subjects (e.g. international cultural relations, copyright, skills agenda).</p>
 			    </div>
 			  </div>
 			  <header class="timeline-header">
-			    <span class="tag is-danger">2016</span>
+			    <span class="tag is-dark">2016</span>
 			  </header>
-			  <div class="timeline-item is-danger">
-			    <div class="timeline-marker is-danger"></div>
+			  <div class="timeline-item is-dark">
+			    <div class="timeline-marker is-dark"></div>
 			    <div class="timeline-content">
-			      <p class="heading">April - July 2016</p>
-			      <p class="has-text-weight-bold">Trainee - Parliamentary Assistant</p>
-			      <p>MEP Hugues Bayet - European Parliament</p>
+			      <p class="heading has-text-primary">April - July 2016</p>
+			      <p class="has-text-weight-bold is-size-5">Trainee - Parliamentary Assistant</p>
+			      <p class="is-size-5 has-text-dark">MEP Hugues Bayet - European Parliament</p>
 			      <button type="button" class="button is-small is-rounded" id="more4">+</button>
 				  <p class="collapse has-text-justified" id="collapse4" style="display:none">
 				  Drafting votes' justifications and tabling amendments on civil liberties, justice and home affairs, and on tax evasion related issues. Writing parliamentary notes for MEP's meetings and interviews and establishing the weekly press review.</p>
 			    </div>
 			  </div>
-			  <div class="timeline-item is-danger">
-			    <div class="timeline-marker is-danger"></div>
+			  <div class="timeline-item is-dark">
+			    <div class="timeline-marker is-dark"></div>
 			    <div class="timeline-content">
-			      <p class="heading">October 2015 - March 2016</p>
-			      <p class="has-text-weight-bold">European Affairs and Partnerships Policy Assistant</p>
-			      <p>Search for Common Ground</p>
+			      <p class="heading has-text-primary">October 2015 - March 2016</p>
+			      <p class="has-text-weight-bold is-size-5">European Affairs and Partnerships Policy Assistant</p>
+			      <p class="is-size-5 has-text-dark">Search for Common Ground</p>
 			      <button type="button" class="button is-small is-rounded" id="more5">+</button>
 				  <p class="collapse has-text-justified" id="collapse5" style="display:none">
 				  Researches on the EU and bilateral donors. Drafting the EU weekly digest on 'peacebuilding' sent to HQ and field teams. Representing the NGO at meetings with the European institutions and CSO. Launching the Twitter account for the Brussels office and managing social media. Collecting information from the field to create the annual report.</p>
 			    </div>
 			  </div>
 			  <header class="timeline-header">
-			    <span class="tag is-danger">2015</span>
+			    <span class="tag is-dark">2015</span>
 			  </header>
 			  <!-- <header class="timeline-header">
 			    <span class="tag is-medium is-primary">Studies</span>
 			  </header> -->
-			  <div class="timeline-item is-danger studies" id="studies">
-			    <div class="timeline-marker is-danger"></div>
-			    <div class="timeline-content is-danger">
-			      <p class="heading">September 2013 - August 2015</p>
-			      <p class="has-text-weight-bold">Master's Degree in European Studies</p>
-			      <p>Université Catholique de Louvain</p>
+			  <div class="timeline-item is-dark studies" id="studies">
+			    <div class="timeline-marker is-dark"></div>
+			    <div class="timeline-content is-dark">
+			      <p class="heading has-text-primary">September 2013 - August 2015</p>
+			      <p class="has-text-weight-bold is-size-5">Master's Degree in European Studies</p>
+			      <p class="is-size-5 has-text-dark">Université Catholique de Louvain</p>
 			      <button type="button" class="button is-small is-rounded" id="more6">+</button>
 				  <p class="collapse has-text-justified" id="collapse6" style="display:none">
 				  <i>Cum Laude</i><br>
 				  Multidisciplinar master's degree between political sciences, law, economics and philosophy.<br>Thesis: The EU migration policy facing the Mediterranean situation: a change of approach?</p>
 			    </div>
 			  </div>
-			  <div class="timeline-item is-danger">
-			    <div class="timeline-marker is-danger"></div>
-			    <div class="timeline-content is-danger">
-			      <p class="heading">September 2014 - February 2015</p>
-			      <p class="has-text-weight-bold">Erasmus</p>
-			      <p>Università Degli Studi di Firenze</p>
+			  <div class="timeline-item is-dark">
+			    <div class="timeline-marker is-dark"></div>
+			    <div class="timeline-content is-dark">
+			      <p class="heading has-text-primary">September 2014 - February 2015</p>
+			      <p class="has-text-weight-bold is-size-5">Erasmus</p>
+			      <p class="is-size-5 has-text-dark">Università Degli Studi di Firenze</p>
 			      <button type="button" class="button is-small is-rounded" id="more7">+</button>
 				  <p class="collapse has-text-justified" id="collapse7" style="display:none">
-				  6-month stay at Università Degli di Firenze, Italy. I developed my Italian skills and I attended classes on Human Rights & Econometry.</p>
+				  6-month stay at Università Degli di Firenze, Italy. I developed my Italian language and I attended classes on Human Rights & Econometry.</p>
 			    </div>
 			  </div>
-			  <header class="timeline-header is-danger">
-			    <span class="tag">2013</span>
+			  <header class="timeline-header is-dark">
+			    <span class="tag is-dark">2013</span>
 			  </header>
-			  <div class="timeline-item is-danger">
-			    <div class="timeline-marker is-danger"></div>
-			    <div class="timeline-content is-danger">
-			      <p class="heading">January - June 2013</p>
-			      <p class="has-text-weight-bold">Erasmus</p>
-			      <p>University College Dublin</p>
+			  <div class="timeline-item is-dark">
+			    <div class="timeline-marker is-dark"></div>
+			    <div class="timeline-content is-dark">
+			      <p class="heading has-text-primary">January - June 2013</p>
+			      <p class="has-text-weight-bold is-size-5">Erasmus</p>
+			      <p class="is-size-5 has-text-dark">University College Dublin</p>
 			      <button type="button" class="button is-small is-rounded" id="more8">+</button>
 				  <p class="collapse has-text-justified" id="collapse8" style="display:none">
 				  6-month stay at University College Dublin, Ireland in the faculty of Social Sciences & Political sciences. I attended classes such as Ireland & the US, America Abroad, MENA, migration and social integration in Ireland or German philosophy.</p>
 			    </div>
 			  </div>
-			  <div class="timeline-item is-danger">
-			    <div class="timeline-marker is-danger"></div>
-			    <div class="timeline-content is-danger">
-			      <p class="heading">September 2009 - June 2013</p>
-			      <p class="has-text-weight-bold">Bachelor's Degree in Political Sciences</p>
-			      <p>Université de Liège</p>
+			  <div class="timeline-item is-dark">
+			    <div class="timeline-marker is-dark"></div>
+			    <div class="timeline-content is-dark">
+			      <p class="heading has-text-primary">September 2009 - June 2013</p>
+			      <p class="has-text-weight-bold is-size-5">Bachelor's Degree in Political Sciences</p>
+			      <p class="is-size-5 has-text-dark">Université de Liège</p>
 			      <button type="button" class="button is-small is-rounded" id="more9">+</button>
 				  <p class="collapse has-text-justified" id="collapse9" style="display:none">
 				  <i>Cum Laude</i><br>
 				  Part of the faculty of law, this bachelor's degree offered me a good knowledge of belgian law as well as other fields such as philosophy, sociology, international relations and economics.</p>
 			    </div>
 			  </div>
-			  <div class="timeline-item is-danger">
-			    <div class="timeline-marker is-medium is-icon is-danger"><i class="fa fa-flag"></i></div>
+			  <div class="timeline-item is-dark">
+			    <div class="timeline-marker is-medium is-icon is-dark"><i class="fas fa-ellipsis-v"></i></div>
 			  </div>
 			</div>
 		</div>
