@@ -61,9 +61,9 @@
 		  		<h1 class="title is-1 has-text-danger">about me</h1>
 				<p class="has-text-weight-semibold is-size-4">Hello, I am Charlotte!<p> 
 				<p class="is-size-5 has-text-weight-normal">I am currently Junior Web Developer at <a href="https://www.becode.org/" target="_blank"><b>BeCode</b></a>. A 6-month bootcamp that will offer me new working opportunities.
-				I am initially graduated with a Bachelor's Degree in Political Sciences and a Master's Degree in European Studies and I gained experience in the european institutions and in a NGO but I didn't feel that this working environment really fulfiled me.
-				<br>In the next few months, I hope I will use my new superpowers to find a proper job in the cultural sector and more specifically in the music industry. But first, I am lookink for a traineeship in <b>Amsterdam</b>, having a desire to explore a new city.
-				<br>I am a curious mind and I have many interests. I am a music lover and could spend my free time going to gigs or digging for new finds (I have eclectic tastes, go check my spotify playlists). Besides, I am passionate about culture and arts. I am a novice photographer and I wish to become a guitar-player and a good painter. I played basketball for 17 years and now I run, swim and bike. I also enjoy long walks in nature.</p>
+				I am initially graduated with a Bachelor's Degree in Political Sciences and a Master's Degree in European Studies and I gained experience in the european institutions and in a NGO but I didn't feel that this working environment really fulfiled me.</p>
+				<p class="is-size-5 has-text-weight-normal">In the next few months, I hope I will use my new superpowers to find a proper job in the cultural sector and more specifically in the music industry. But first, I am lookink for a traineeship in <b>Amsterdam</b>, having a desire to explore a new city.</p>
+				<p class="is-size-5 has-text-weight-normal">I am a curious mind and I have many interests. I am a music lover and could spend my free time going to gigs or digging for new finds (I have eclectic tastes, go check my spotify playlists). Besides, I am passionate about culture and arts. I am a novice photographer and I wish to become a guitar-player and a good painter. I played basketball for 17 years and now I run, swim and bike. I also enjoy long walks in nature.</p>
 				<hr>
 			</div>
 		</div>
@@ -71,17 +71,17 @@
 		<h2 class="title is-2 has-text-danger" id="skills">skills</h2>
 			<div class="columns container-perso">
 				<div class="column is-6 info">
-					<p>HTML <i class="fab fa-html5"></i> </p>
-					<p>CSS <i class="fab fa-css3-alt"></i> | Sass <i class="fab fa-sass"></i> </p>
+					<p><i class="fab fa-html5"></i> HTML</p>
+					<p><i class="fab fa-css3-alt"></i> CSS | <i class="fab fa-sass"></i> Sass</p>
 					<p>Frameworks: Bootstrap, Materialize, Bulma</p>
-					<p>Javascript <i class="fab fa-js"></i> | JQuery</p>
-					<p>React <i class="fab fa-react"></i> | ReactNative</p>
-					<p>Vuejs <i class="fab fa-vuejs"></i></p>
-					<p>Angular <i class="fab fa-angular"></i></p>
-					<p>PHP <i class="fab fa-php"></i></p>
-					<p>Ruby <i class="fas fa-gem"></i></p>
-					<p>NodeJS <i class="fab fa-node"></i></p>
-					<p>Python <i class="fab fa-python"></i></p>
+					<p><i class="fab fa-js"></i> Javascript | JQuery</p>
+					<p><i class="fab fa-react"></i> React | ReactNative</p>
+					<p><i class="fab fa-vuejs"></i> Vuejs</p>
+					<p><i class="fab fa-angular"></i> Angular</p>
+					<p><i class="fab fa-php"></i> PHP</p>
+					<p><i class="fas fa-gem"></i> Ruby</p>
+					<p><i class="fab fa-node"></i> NodeJS</p>
+					<p><i class="fab fa-python"></i> Python</p>
 				</div>
 				<div class="column is-6 container-level">
 					<progress class="progress is-dark" value="80" max="100"></progress>
@@ -233,10 +233,10 @@
 	  	<aside class="menu is-right">
 	  		<p class="menu-label">Menu</p>
 	  		<ul class="menu-list">
-	  			<li><a href="#intro"><i class="fas fa-info-circle"></i> About me</a></li>
-	  			<li><a href="#skills"><i class="fas fa-code"></i></i> Skills</a></li>
-	  			<li><a href="#experience"><i class="fas fa-cogs"></i> Experience</a></li>
-    			<li><a href="#studies"><i class="fas fa-graduation-cap"></i> Studies</a></li>
+	  			<li><a href="#intro"><i class="fas fa-info-circle"></i> about me</a></li>
+	  			<li><a href="#skills"><i class="fas fa-code"></i></i> skills</a></li>
+	  			<li><a href="#experience"><i class="fas fa-rocket"></i> experience</a></li>
+    			<li><a href="#studies"><i class="fas fa-graduation-cap"></i> studies</a></li>
 	  		</ul>
 	  	</aside>
 	  </div>

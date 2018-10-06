@@ -51,10 +51,25 @@ body {
 	z-index: 10;
 	.navbar-burger {color: $danger;}
 	.navbar-item {
+		color: $dark;
 		&:hover {
 			color: $orange;
 		}
-	.navbar-link:hover {color: $danger;}	
+		.navbar-link:hover {color: $danger;}
+		@include for-phone-only {
+		    color: $lightgrey;
+		}
+		@include for-tablet-portrait-up {
+		    color: $lightgrey;
+		}	
+	}
+	.navbar-menu {
+		@include for-phone-only {
+		    background-color: $dark;
+		}
+		@include for-tablet-portrait-up {
+		    background-color: $dark;
+		}
 	}
 }
 
@@ -129,12 +144,12 @@ body {
 		&:visited {color: $orange;}
 	}
 	.intro {
-		p 
-		{
-		padding-left: 30px;
-		padding-right: 60px;
-		line-height: 40pt;
-		text-align: justify;
+		p {
+			padding-left: 30px;
+			padding-right: 60px;
+			line-height: 25pt;
+			text-align: justify;
+			margin-bottom: 14px;
 		}
 	}
 	.form div {

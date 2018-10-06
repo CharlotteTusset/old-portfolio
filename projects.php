@@ -1,28 +1,20 @@
 <?php include 'partials/header.php' ?>
 
 <main>
-	<div class="columns is-mobile">
+	<div class="columns">
 		<div class="column is-9 project_container">
-			
-			
-			
-
-
-
-
-
 			<div class="project" id="ukiyo">
 				<span class="title is-uppercase has-text-danger">Ukiyo</span>
 				<span class="is-size-5 has-text-primary is-italic">- A restaurant website made with Bootstrap</span>
 				<div class="p_bootstrap proj-summary">
-					<div class="columns is-mobile">
+					<div class="columns">
 						<div class="column is-1 has-text-weight-semibold">
 							<p>Where?</p>
 							<p>What?</p>
 							<p>Who?</p>
 							<p>When?</p>
 						</div>
-						<div class="column is-5">
+						<div class="column is-10">
 							<p>During my training at Be Code</p>
 							<p>Create a first responsive website for a restaurant</p>
 							<p>Solo project</p>
@@ -43,10 +35,11 @@
 				<span class="title is-uppercase has-text-danger">Degroof Petercam</span>
 				<span class="is-size-5 has-text-primary is-italic">- A Missions Manager App made with React Native</span>
 				<div class="p_reactnative proj-summary">
-					<div class="columns is-mobile">
+					<div class="columns">
 						<div class="column is-1 has-text-weight-semibold">
 							<p>Where?</p>
 							<p>What?</p>
+							<br>
 							<p>Who?</p>
 							<p>When?</p>
 						</div>
@@ -70,7 +63,7 @@
 				<span class="title is-uppercase has-text-danger">Allezciné</span>
 				<span class="is-size-5 has-text-primary is-italic">- A movies platform inspired by Allociné</span>
 				<div class="p_allezcine proj-summary">
-					<div class="columns is-mobile">
+					<div class="columns">
 						<div class="column is-1 has-text-weight-semibold">
 							<p>Where?</p>
 							<p>What?</p>
