@@ -55,7 +55,7 @@
 		</div>
 	  </div>
 	  <!-- centered column -->
-	  <div class="column is-8 center-col">
+	  <div class="column is-8 is-12-mobile center-col">
 		<div class="description">
 		  	<div class="intro" id="intro">
 		  		<h1 class="title is-1 has-text-danger">about me</h1>

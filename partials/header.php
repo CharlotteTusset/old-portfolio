@@ -15,7 +15,7 @@
 <body>
 	<div class="triangle"></div>
 	<div class="columns">
-		<div class="column is-8">
+		<div class="column is-8 is-12-mobile">
 			<nav class="navbar">
 				<div class="navbar-brand">
 					<a class="navbar-item" href="index.php">
