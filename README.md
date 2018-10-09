@@ -2,7 +2,7 @@
 
 ## Personal website
 
-Link: 
+Link: [charlottetusset.me](https://charlottetusset.me) 
 
 ---
 
@@ -20,7 +20,8 @@ Link:
 
 * Improve my CV website
 * Realise a portfolio for potential employers
-* Confirm my knowledge
+* Show my new skills
+* Continuous improvement
 
 ---
 
@@ -28,5 +29,5 @@ Link:
 
 Logo by Gregor Cresnar
 ![Logo by Gregor Cresnar](img/eye.png)    
-
 [Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)  
+
