@@ -7073,4 +7073,29 @@ body {
   padding-top: 3rem;
   padding-bottom: 1rem; }
 
+.page404 #error {
+  padding: 80px 0px 0px 150px;
+  font-size: 60px; }
+.page404 #message {
+  padding-left: 150px;
+  margin-top: -200px;
+  padding-bottom: 250px; }
+.page404 .columns {
+  margin-top: -300px;
+  font-size: 500px;
+  align-items: flex-start; }
+  .page404 .columns .jump {
+    z-index: 10; }
+
+@keyframes jump {
+  0% {
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1); }
+  40% {
+    transform: translate3d(0, 10%, 0) scale3d(0.7, 1.5, 1); }
+  100% {
+    transform: translate3d(0, 30%, 0) scale3d(1.5, 0.7, 1); } }
+.jump {
+  transform-origin: 50% 50%;
+  animation: jump .9s linear alternate infinite; }
+
 /*# sourceMappingURL=main.css.map */

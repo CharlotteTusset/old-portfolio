@@ -74,7 +74,7 @@
 					<p><i class="fab fa-html5"></i> HTML</p>
 					<p><i class="fab fa-css3-alt"></i> CSS | <i class="fab fa-sass"></i> Sass</p>
 					<p>Frameworks: Bootstrap, Materialize, Bulma</p>
-					<p><i class="fab fa-js"></i> Javascript | JQuery</p>
+					<p><i class="fab fa-js"></i> JavaScript | JQuery</p>
 					<p><i class="fab fa-react"></i> React | ReactNative</p>
 					<p><i class="fab fa-vuejs"></i> Vuejs</p>
 					<p><i class="fab fa-angular"></i> Angular</p>
