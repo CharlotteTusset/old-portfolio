@@ -1,0 +1,6 @@
+User-agent : *
+Disallow : /projects.php
+Disallow: /node_modules/
+Disallow: /img/
+
+Sitemap : https://charlottetusset.me/sitemap.txt

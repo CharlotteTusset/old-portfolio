@@ -38,7 +38,8 @@
     "babel-preset-es2015-ie": "^6.7.0",
     "bulma": "^0.6.0",
     "node-sass": "^4.5.3",
-    "postcss-cli": "^4.1.1"
+    "postcss-cli": "^4.1.1",
+    "sw-precache": "^5.2.1"
   },
   "keywords": [
     "sass",
@@ -60,6 +61,7 @@
   },
   "version": "0.0.2",
   "dependencies": {
-    "bulma-timeline": "^3.0.0"
+    "bulma-timeline": "^3.0.0",
+    "gulp": "^4.0.0"
   }
 }
