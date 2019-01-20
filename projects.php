@@ -82,6 +82,26 @@
 			      </div>
 				</div>
 			</div>
+			<div class="project" id="presence">
+				<div class="content">
+			      <img class="content-image" src="img/presence.png">
+			      <div class="overlay">
+			      	<div class="text">
+			      		<h3 class="is-uppercase is-bold has-text-danger">Presence</h3>
+			        	<p>What? A showcase website to meditate</p>
+			        	<p>How? HTML | Sass | Materialize</p>
+			        	<p>Who? Client project by 2</p>
+			        	<p>When? July - December 2018</p>
+			        	<div class="link_container">
+							<a href="www.presence.how" target="_blank">
+							<i class="fas fa-globe fa-lg"></i></a>
+							<a href="https://github.com/CharlotteTusset/project-Emergences" target="_blank">
+							<i class="fab fa-github fa-lg"></i></a>
+						</div>
+			      	</div>
+			      </div>
+				</div>
+			</div>
 			<div class="project" id="chomhier">
 				<div class="content">
 			      <img class="content-image" src="img/chomhier.png">
@@ -135,6 +155,7 @@
 			    <li><a href="#dpapp">Degroof Petercam</a></li>
 			    <li><a href="#allezcine">Allezciné</a></li>
 			    <li><a href="#cogip">COGIP</a></li>
+				<li><a href="#presence">Presence</a></li>
 			    <li><a href="#chomhier">Chôm'hier</a></li>
 			    <li><a href="#village">Village n°1</a></li>
 			  </ul>

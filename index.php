@@ -60,9 +60,9 @@
 		  	<div class="intro" id="intro">
 		  		<h1 class="title is-1 has-text-danger">about me</h1>
 				<p class="has-text-weight-semibold is-size-4">Hello, I am Charlotte!<p> 
-				<p class="is-size-5 has-text-weight-normal">I am currently Junior Web Developer at <a href="https://www.becode.org/" target="_blank" rel="noreferrer"><b>BeCode</b></a>. A 6-month bootcamp that will offer me new working opportunities.
+				<p class="is-size-5 has-text-weight-normal">I am currently Junior Web Developer Intern at <a href="https://studiostomp.nl/" target="_blank" rel="noreferrer"><b>Studio Stomp</b></a> in Amsterdam after having done a 6-month bootcamp at Be Code in Brussels.
 				I am initially graduated with a Bachelor's Degree in Political Sciences and a Master's Degree in European Studies and I gained experience in the european institutions and in a NGO but I didn't feel that this working environment really fulfiled me.</p>
-				<p class="is-size-5 has-text-weight-normal">In the next few months, I hope I will use my new superpowers to find a proper job in the cultural sector and more specifically in the music industry. But first, I am looking for a traineeship in <b>Amsterdam</b>, having a desire to explore a new city.</p>
+				<p class="is-size-5 has-text-weight-normal">In the next few months, I hope I will use my new superpowers to find a proper job in the digital sector and more specifically in the music industry.</p>
 				<p class="is-size-5 has-text-weight-normal">I am a curious mind and I have many interests. I am a music lover and could spend my free time going to gigs or digging for new finds (I have eclectic tastes, go check my spotify playlists). Besides, I am passionate about culture and arts. I am a novice photographer and I wish to become a guitar-player and a good painter. I played basketball for 17 years and now I run, swim and bike. I also enjoy long walks in nature.</p>
 				<hr>
 			</div>
@@ -78,7 +78,7 @@
 					<p><i class="fab fa-react"></i> React | ReactNative</p>
 					<p><i class="fab fa-vuejs"></i> Vuejs</p>
 					<p><i class="fab fa-angular"></i> Angular</p>
-					<p><i class="fab fa-php"></i> PHP</p>
+					<p><i class="fab fa-php"></i> PHP | <i class="fab fa-laravel"></i> Laravel</p>
 					<p><i class="fas fa-gem"></i> Ruby</p>
 					<p><i class="fab fa-node"></i> NodeJS</p>
 					<p><i class="fab fa-python"></i> Python</p>
@@ -103,7 +103,20 @@
 		<div class="experience">
 			<div class="timeline">
 			  <header class="timeline-header">
-			    <span class="tag is-medium is-dark">2018</span>
+			    <span class="tag is-medium is-dark">2019</span>
+			  </header>
+				<div class="timeline-item is-dark">
+			    <div class="timeline-marker is-dark"></div>
+			    <div class="timeline-content">
+			      <p class="heading has-text-primary has-text-primary">January - May 2019</p>
+			      <p class="has-text-weight-bold is-size-5">Junior Web Developer Intern</p>
+			      <p class="is-size-5 has-text-dark">Studio Stomp</p>
+				  <button type="button" class="button is-small is-rounded is-primary is-outlined" id="more">+</button>
+				  <p class="collapse has-text-justified" id="collapse" style="display:none">Studio Stomp is a small web agency where I am learning the basic skills of a full-stack webdeveloper. Maintening and contributing to existing clients websites but also launching and realising websites for new clients.</p>
+			    </div>
+			  </div>
+				<header class="timeline-header">
+			    <span class="tag is-dark">2018</span>
 			  </header>
 			  <div class="timeline-item is-dark">
 			    <div class="timeline-marker is-dark"></div>
@@ -113,7 +126,7 @@
 			      <p class="is-size-5 has-text-dark">Be Code</p>
 				  <button type="button" class="button is-small is-rounded is-primary is-outlined" id="more">+</button>
 				  <p class="collapse has-text-justified" id="collapse" style="display:none">
-				  I started this 6-month coding bootcamp because I wanted to give new chances to my professionnal future. I am developing strong coding skills: HTML, CSS, JS, Jquery, PHP, React, SQL. But also soft skills through workshops, presentations (Algorave, Creative Commons, Vuejs, HTLM). I also attended my first Hackathon on Music Tech. Besides, I was Scrum Master for several projects and for a real client project ('Emergeences', website to meditate).</p>
+				  I started this 6-month coding bootcamp because I wanted to give new chances to my professionnal future. I am developing strong coding skills: HTML, CSS, JS, Jquery, PHP, React, SQL. But also soft skills through workshops, presentations (Algorave, Creative Commons, Vuejs, HTLM). I also attended my first Hackathon on Music Tech. Besides, I was Scrum Master for several projects and for a client project ('Emergences', website to meditate).</p>
 			    </div>
 			  </div>
 			  <header class="timeline-header">
