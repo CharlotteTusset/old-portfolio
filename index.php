@@ -9,7 +9,7 @@
 		<div class="avatar">
 			<p class="is-size-3">Charlotte Tusset</p>
 			<p class="is-size-7 is-uppercase has-text-weight-semibold">Junior Web Developer</p>
-			<p><i class="fas fa-map-pin"></i> Brussels</p>
+			<p><i class="fas fa-map-pin"></i> Amsterdam</p>
 			<p>FR | EN | IT | NL</p>
 			<hr>
   			<div class="social">

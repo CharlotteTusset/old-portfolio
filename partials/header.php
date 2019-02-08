@@ -30,7 +30,7 @@
 			<nav class="navbar">
 				<div class="navbar-brand">
 					<a class="navbar-item" href="index.php">
-						<img src="img/eye.png" alt="Eye">
+						<img class="animated pulse" src="img/eye.png" alt="Eye">
 					</a>
 					<!-- Navbar Burger -->
 					<a role="button" class="navbar-burger" data-target="navbar" aria-label="menu" aria-expanded="false">
