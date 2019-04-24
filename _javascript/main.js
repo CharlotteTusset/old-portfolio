@@ -29,105 +29,39 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
-// Script to hide/show content TO SIMPLIFY
-$( "#more" ).click(function() {
-  $( "#collapse" ).toggle( "slow", function() {
-    // Animation complete.
-  }); 
- if ($(this).text() == "+") { 
-      $(this).text("-"); 
-  } else { 
-      $(this).text("+"); 
-  }; 
-});
+// Script to hide/show content
+function toggleMe(a){
+  var e = document.getElementById(a);
+  if(!e)return true;
+  if(e.style.display=="none"){
+    e.style.display="block";
+    a.innerHTML = "+";
+  }
+  else{
+    e.style.display="none";
+    a.innerHTML = "-";
+  }
+  return true;
+  }
 
-$( "#more2" ).click(function() {
-  $( "#collapse2" ).toggle( "slow", function() {
-    // Animation complete.
+  $("button").on("click", function() {
+    var el = $(this);
+    if (el.text() == el.data("text-swap")) {
+      el.text(el.data("text-original"));
+    } else {
+      el.data("text-original", el.text());
+      el.text(el.data("text-swap"));
+    }
   });
-  if ($(this).text() == "+") { 
-      $(this).text("-"); 
-  } else { 
-      $(this).text("+"); 
-  }; 
-});
 
-$( "#more3" ).click(function() {
-  $( "#collapse3" ).toggle( "slow", function() {
-    // Animation complete.
-  });
-  if ($(this).text() == "+") { 
-      $(this).text("-"); 
-  } else { 
-      $(this).text("+"); 
-  }; 
-});
+//   if ($("button").text() == "+") { 
+//     $("button").text("-"); 
+// } else { 
+//     $("button").text("+"); 
+// };
 
-$( "#more4" ).click(function() {
-  $( "#collapse4" ).toggle( "slow", function() {
-    // Animation complete.
-  });
-  if ($(this).text() == "+") { 
-      $(this).text("-"); 
-  } else { 
-      $(this).text("+"); 
-  }; 
-});
+ 
 
-$( "#more5" ).click(function() {
-  $( "#collapse5" ).toggle( "slow", function() {
-    // Animation complete.
-  });
-  if ($(this).text() == "+") { 
-      $(this).text("-"); 
-  } else { 
-      $(this).text("+"); 
-  }; 
-});
-
-$( "#more6" ).click(function() {
-  $( "#collapse6" ).toggle( "slow", function() {
-    // Animation complete.
-  });
-  if ($(this).text() == "+") { 
-      $(this).text("-"); 
-  } else { 
-      $(this).text("+"); 
-  }; 
-});
-
-$( "#more7" ).click(function() {
-  $( "#collapse7" ).toggle( "slow", function() {
-    // Animation complete.
-  });
-  if ($(this).text() == "+") { 
-      $(this).text("-"); 
-  } else { 
-      $(this).text("+"); 
-  }; 
-});
-
-$( "#more8" ).click(function() {
-  $( "#collapse8" ).toggle( "slow", function() {
-    // Animation complete.
-  });
-  if ($(this).text() == "+") { 
-      $(this).text("-"); 
-  } else { 
-      $(this).text("+"); 
-  }; 
-});
-
-$( "#more9" ).click(function() {
-  $( "#collapse9" ).toggle( "slow", function() {
-    // Animation complete.
-  });
-  if ($(this).text() == "+") { 
-      $(this).text("-"); 
-  } else { 
-      $(this).text("+"); 
-  }; 
-});
 
 
 // Scroll right & left col
